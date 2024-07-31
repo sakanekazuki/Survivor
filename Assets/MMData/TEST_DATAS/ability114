@@ -1,0 +1,1 @@
+{"ID":114,"NAME":"タリスマン","weaponLevelDatas":[],"itemLevelDatas":[{"Description":"60秒に1回ダメージ無効シールドを張る                                        ","Description_en":"Generate an barrier that can nullify damage once every 60 seconds","Description_tw":"每60秒生成一張可以抵擋1次傷害的結界","Description_cn":"每60秒生成一张可以抵挡1次伤害的结界","itemStatusDatas":[{"value":60.0,"exItemStatus":5,"StatusType":0}]}]}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1e551922b81ce40b6579726b70c93f, type: 3}
+  m_Name: dp_Xmas_meifan_stand
+  m_EditorClassIdentifier: 
+  Version: 65536
+  Name: Xmas_meifan_stand
+  DataCellMap: {fileID: 11400000, guid: 9f21279bf4de8154caf38e066d574e51, type: 2}
+  DataAnimation:
+  - {fileID: 11400000, guid: e4b09f79323e274489eda14c20e2bc1c, type: 2}
+  - {fileID: 11400000, guid: aeb5eda076844f5478d6e90c4b7346b1, type: 2}
+  DataEffect: []
+  DataSequence: []
+  PrefabAnimation:
+  - {fileID: 8106658541854127715, guid: 86c7e6a6462bbd2498b6c109084b87b7, type: 3}
+  - {fileID: 5422068592679237296, guid: 269e2d53cb087014d9fa263f9c5f265b, type: 3}
+  PrefabEffect: []
+  TableTexture:
+  - {fileID: 2800000, guid: b34fbcfd204e9c54c963811349cada16, type: 3}

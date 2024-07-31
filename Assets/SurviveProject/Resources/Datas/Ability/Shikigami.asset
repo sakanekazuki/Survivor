@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Shikigami
+  m_EditorClassIdentifier: 
+  ID: 6
+  Name: "\u9283"
+  Name_cn: 
+  Name_en: Gun
+  Name_tw: 
+  basePrefab: {fileID: 8715538825491426084, guid: e43815b2f5bdd1e4d8238994a7372004,
+    type: 3}
+  image: {fileID: 21300000, guid: ec9ed94a74032be428ed4eb9c08418ba, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: -1
+  Description: "\u6700\u3082\u8FD1\u3044\u6575\u306B\u8CAB\u901A\u3059\u308B\u7BC4\u56F2\u653B\u6483\u3092\u3059\u308B"
+  Description_en: Perform a piercing area attack on the nearest enemy.
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas:
+  - DamageRate: 220
+    Interval: 3
+    Speed: 0
+    AreaStr: "\u5C0F"
+    Size: 1
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.5
+    Description: "\u6700\u3082\u8FD1\u3044\u6575\u306B\u8CAB\u901A\u3059\u308B\u7BC4\u56F2\u653B\u6483\u3092\u3059\u308B"
+    Description_cn: 
+    Description_en: Perform a piercing area attack on the nearest enemy.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 220
+    Interval: 2.7
+    Speed: 0
+    AreaStr: "\u5C0F"
+    Size: 1
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.5
+    Description: "\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.3\u79D2"
+    Description_cn: 
+    Description_en: weapon's  CD -0.3 sec.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 220
+    Interval: 2.7
+    Speed: 0
+    AreaStr: "\u5C0F"
+    Size: 1.2
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.6
+    Description: "\u7D99\u7D9A\u6642\u9593+0.1\u79D2\u3000\n\u653B\u6483\u7BC4\u56F2+20\uFF05"
+    Description_cn: 
+    Description_en: 'Duration +0.1 sec.
+
+      Attack range+20%    '
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 220
+    Interval: 2.4
+    Speed: 0
+    AreaStr: "\u5C0F"
+    Size: 1.4
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.6
+    Description: "\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.3\u79D2\u3000\n\u653B\u6483\u7BC4\u56F2+20\uFF05"
+    Description_cn: 
+    Description_en: 'weapon''s  CD -0.3 sec.
+
+      Attack range+20%    '
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 240
+    Interval: 2.4
+    Speed: 0
+    AreaStr: "\u5C0F"
+    Size: 1.4
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.7
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05\u3000\n\u7D99\u7D9A\u6642\u9593+0.1\u79D2"
+    Description_cn: 
+    Description_en: 'Damage+20%
+
+      Duration +0.1 sec.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 240
+    Interval: 1.9
+    Speed: 0
+    AreaStr: "\u5C0F"
+    Size: 1.6
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.7
+    Description: "\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.5\u79D2\u3000\n\u653B\u6483\u7BC4\u56F2+20\uFF05"
+    Description_cn: 
+    Description_en: 'weapon''s  CD -0.5 sec.
+
+      Attack range+20%    '
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 260
+    Interval: 1.4
+    Speed: 0
+    AreaStr: "\u5C0F"
+    Size: 1.6
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.7
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05\u3000\n\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.5\u79D2\n\u30D3\u30FC\u30E0\u7D4C\u8DEF\u4E0A\u306E\u6575\u306B0.5\u79D2\u306E\u6C17\u7D76\u52B9\u679C\u3092\u4ED8\u4E0E\u3059\u308B\n\u203B\u6C17\u7D76\uFF1A\u52B9\u679C\u4E2D\u884C\u52D5\u505C\u6B62\u3059\u308B"
+    Description_cn: 
+    Description_en: 'Damage+20%
+
+      weapon''s  CD -0.5 sec.
+
+      Grants stun
+      effect to enemies on the beam path.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 50
+      value2: 0
+      exWeaponStatus: 4
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas: []

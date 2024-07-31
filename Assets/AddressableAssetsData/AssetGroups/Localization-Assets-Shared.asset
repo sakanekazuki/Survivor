@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1c064deb365905a449de8e07a864aec8
+  m_SerializeEntries:
+  - m_GUID: 133438a2af1ecf94494d3650cde6a11e
+    m_Address: Assets/SurviveProject/Localisation/Tables/UI Text Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9746f6cd356c6304f94faed8ddda193f
+    m_Address: Assets/SurviveProject/Localisation/Tables/UI Sprite Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e5cbf8db3e602e45b5d2cf8f9ea1fd1
+    m_Address: Assets/SurviveProject/Localisation/Tables/ShopItem Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f44b3a8d7dc694d90b03aac46aba9e07
+    m_Address: Icon_PictoIcon_Back
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-CN
+    - Locale-zh-TW
+    - Locale-en
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 055edc59a6a6866458734ad68cdaea07, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c9693fcd5bdfb2a4688b1b0ed5508a62, type: 2}
+    - {fileID: 11400000, guid: b485ddcd501965047b1d391392aac664, type: 2}

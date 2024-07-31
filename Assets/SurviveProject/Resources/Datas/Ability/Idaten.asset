@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Idaten
+  m_EditorClassIdentifier: 
+  ID: 103
+  Name: "\u75BE\u98A8\u306E\u9774"
+  Name_cn: 
+  Name_en: Gale shoes
+  Name_tw: 
+  basePrefab: {fileID: 0}
+  image: {fileID: 21300000, guid: e46ad7158b0feb048ae7641867e11de8, type: 3}
+  abilityDataType: 2
+  TargetCharacterID: -1
+  Description: "\u79FB\u52D5\u901F\u5EA6+10\uFF05"
+  Description_en: Movement Speed +10%
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas: []
+  ItemLevelDatas:
+  - Description: "\u79FB\u52D5\u901F\u5EA6+10\uFF05"
+    Description_en: Movement Speed +10%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.1
+      exItemStatus: 0
+      StatusType: 2
+  - Description: "\u79FB\u52D5\u901F\u5EA6+10\uFF05"
+    Description_en: Movement Speed +10%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.2
+      exItemStatus: 0
+      StatusType: 2
+  - Description: "\u79FB\u52D5\u901F\u5EA6+10\uFF05"
+    Description_en: Movement Speed +10%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.3
+      exItemStatus: 0
+      StatusType: 2
+  - Description: "\u79FB\u52D5\u901F\u5EA6+10\uFF05"
+    Description_en: Movement Speed +10%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.4
+      exItemStatus: 0
+      StatusType: 2
+  - Description: "\u79FB\u52D5\u901F\u5EA6+10\uFF05"
+    Description_en: Movement Speed +10%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.5
+      exItemStatus: 0
+      StatusType: 2
+  - Description: "\u79FB\u52D5\u901F\u5EA6+10\uFF05"
+    Description_en: Movement Speed +10%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.6
+      exItemStatus: 0
+      StatusType: 2
+  - Description: "\u79FB\u52D5\u901F\u5EA6+10\uFF05"
+    Description_en: Movement Speed +10%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.7
+      exItemStatus: 0
+      StatusType: 2

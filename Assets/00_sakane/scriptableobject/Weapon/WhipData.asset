@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: WhipData
+  m_EditorClassIdentifier: 
+  ID: 10
+  Name: "\u300C\u5929\u5149\u300D&\u300C\u540D\u6708\u300D"
+  Name_cn: "\u300C\u5929\u5149\u300D&\u300C\u540D\u6708\u300D"
+  Name_en: "\u300C\u5929\u5149\u300D&\u300C\u540D\u6708\u300D"
+  Name_tw: "\u300C\u5929\u5149\u300D&\u300C\u540D\u6708\u300D"
+  basePrefab: {fileID: 8867154979935037322, guid: cbc4b58fa3cd6374fa84195cfc5cfd1c,
+    type: 3}
+  image: {fileID: 21300000, guid: 1c9a26e9d41b89d4a81942dc67d51654, type: 3}
+  abilityDataType: 0
+  TargetCharacterID: -1
+  Description: a
+  Description_en: a
+  Description_tw: a
+  Description_cn: a
+  WeaponLevelDatas:
+  - DamageRate: 100
+    Interval: 2.1
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.22
+    Description: "\u524D\u65B9\u306B\u300C\u5929\u5149\u300D\u3068\u300C\u540D\u6708\u300D\u30672\u56DE\u653B\u6483\u3059\u308B"
+    Description_cn: "\u4F7F\u7528\u300C\u5929\u5149\u300D\u548C\u300C\u540D\u6708\u300D\u5BF9\u524D\u65B9\u8FDB\u884C\u4E24\u6B21\u653B\u51FB\u3002"
+    Description_en: Attack twice using "Heavenly Light" and "Full Moon" in front.
+    Description_tw: "\u4F7F\u7528\u300C\u5929\u5149\u300D\u548C\u300C\u540D\u6708\u300D\u5C0D\u524D\u65B9\u9032\u884C\u5169\u6B21\u653B\u64CA\u3002"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 2.1
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.25
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.22
+    Description: "\u653B\u6483\u7BC4\u56F2+25\uFF05"
+    Description_cn: "\u653B\u51FB\u8303\u56F4+25%"
+    Description_en: Attack range+25%
+    Description_tw: "\u653B\u64CA\u7BC4\u570D+25% "
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 1.9
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.25
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.22
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05\n\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.2\u79D2"
+    Description_cn: "\u4F24\u5BB3+20%\n\u6B64\u6B66\u5668\u7684\u653B\u51FB\u95F4\u9694
+      -0.2 \u79D2"
+    Description_en: 'Damage+20%
+
+      This weapon''s CD -0.2 sec.'
+    Description_tw: "\u50B7\u5BB3+20%\n\u6B64\u6B66\u5668\u7684\u653B\u64CA\u9593\u9694-
+      0.2 \u79D2"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 1.9
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.5
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.22
+    Description: "\u653B\u6483\u7BC4\u56F2+25\uFF05\n\u79FB\u52D5\u901F\u5EA6+20%"
+    Description_cn: "\u653B\u51FB\u8303\u56F4+25%\n\u79FB\u52A8\u901F\u5EA6 +20%"
+    Description_en: 'Attack range+25%
+
+      Movement Speed +20%'
+    Description_tw: "\u653B\u64CA\u7BC4\u570D+25%\n\u79FB\u52D5\u901F\u5EA6 +20%"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 1.9
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.5
+    Num: 1
+    Type: 1
+    Knockback: 300
+    Time: 0.22
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05\n\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\uFF08\u5C0F\uFF09\u8FFD\u52A0"
+    Description_cn: "\u4F24\u5BB3+20%\n\u8FFD\u52A0\u51FB\u9000\uFF08\u5C0F\uFF09"
+    Description_en: 'Attack range+20%
+
+      Knockback(S)'
+    Description_tw: "\u50B7\u5BB3+20%\n\u8FFD\u52A0\u64CA\u9000\uFF08\u5C0F\uFF09"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 1.6
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.75
+    Num: 1
+    Type: 1
+    Knockback: 300
+    Time: 0.22
+    Description: "\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.2\u79D2"
+    Description_cn: "\u653B\u51FB\u8303\u56F4+25%\n\u6B64\u6B66\u5668\u7684\u653B\u51FB\u95F4\u9694
+      -0.2 \u79D2"
+    Description_en: 'Attack range+25%
+
+      This weapon''s CD -0.2 sec.'
+    Description_tw: "\u653B\u64CA\u7BC4\u570D+25%\n\u6B64\u6B66\u5668\u7684\u653B\u64CA\u9593\u9694-
+      0.2 \u79D2"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 1.6
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.75
+    Num: 2
+    Type: 1
+    Knockback: 300
+    Time: 0.22
+    Description: "\u300C\u5929\u5149\u300D\u3068\u300C\u540D\u6708\u300D\u306E\u653B\u6483\u56DE\u6570\u3092+1\u3059\u308B\n10\u56DE\u653B\u6483\u3059\u308B\u5EA6\u3001\u5F8C\u65B9\u5411\u306B\u5411\u304B\u3063\u30665\u672C\u653B\u6483\u529B100\uFF05\u8CAB\u901A\u3059\u308B\u5203\u3092\u98DB\u3070\u3059\n\u203B\u8CAB\u901A\u3059\u308B\u56DE\u6570\u306F\u7121\u9650\u3067\u3059"
+    Description_cn: "\u300E\u5929\u5149\u300F\u548C\u300E\u660E\u6708\u300F\u7684\u653B\u51FB\u6B21\u6570\u589E\u52A01\u3002\n\u6BCF10\u6B21\u653B\u51FB\uFF0C\u5411\u540E\u6295\u63B75\u628A\u80FD\u7A7F\u900F\u7684\u5251\u5203\u3002 "
+    Description_en: 'The number of attacks for Tenkou&Meigetu is increased by 1.
+
+      Every
+      10 attacks, throw 5 blades that canpierce through enemies..'
+    Description_tw: "\u300E\u5929\u5149\u300F\u548C\u300E\u660E\u6708\u300F\u7684\u653B\u64CA\u6B21\u6578\u589E\u52A01\u3002\n\u6BCF10\u6B21\u653B\u64CA\uFF0C\u5411\u5F8C\u6295\u64F25\u628A\u80FD\u7A7F\u900F\u7684\u528D\u5203\u3002"
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 2
+      exStatus:
+        DamageRate: 100
+        Interval: 0.1
+        Speed: 200
+        AreaStr: "\u4E2D"
+        Size: 1
+        Num: 1
+        Type: 2
+        Knockback: 0
+        Time: 5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas: []

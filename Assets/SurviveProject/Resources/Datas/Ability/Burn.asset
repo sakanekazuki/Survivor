@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Burn
+  m_EditorClassIdentifier: 
+  ID: 16
+  Name: "\u707C\u71B1\u306E\u5B9D\u73E0"
+  Name_cn: "\u707C\u70ED\u7684\u5B9D\u73E0"
+  Name_en: Pearl of Scorching Flame
+  Name_tw: "\u707C\u71B1\u7684\u5BF6\u73E0"
+  basePrefab: {fileID: 4267511456064116058, guid: bcb5464e7f2251e4bb8b6859544c277b,
+    type: 3}
+  image: {fileID: 21300000, guid: 2a3c83e26b05fff4d9ad9cdda20a605a, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: -1
+  Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u3067\u653B\u6483\u3057\u305F\u6575\u306B\u5BFE\u3057\u3001\n\u4E00\u5B9A\u6642\u9593\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u7D9A\u3051\u308B"
+  Description_en: Deal damage to the enemy over time after attacking with the main
+    weapon.
+  Description_tw: "\u7528\u4E3B\u6B66\u5668\u653B\u64CA\u7684\u6575\u4EBA\uFF0C\u5728\u4E00\u5B9A\u6642\u9593\u5167\u5C0D\u6575\u4EBA\u9020\u6210\u50B7\u5BB3\u3002"
+  Description_cn: "\u7528\u4E3B\u6B66\u5668\u653B\u51FB\u7684\u654C\u4EBA\uFF0C\u5728\u4E00\u5B9A\u65F6\u95F4\u5185\u5BF9\u654C\u4EBA\u9020\u6210\u4F24\u5BB3\u3002"
+  WeaponLevelDatas:
+  - DamageRate: 55
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3
+    Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u3067\u653B\u6483\u3057\u305F\u6575\u306B\u5BFE\u3057\u3001
+      \u4E00\u5B9A\u6642\u9593\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u7D9A\u3051\u308B"
+    Description_cn: "\u7528\u4E3B\u6B66\u5668\u653B\u51FB\u7684\u654C\u4EBA\uFF0C\u5728\u4E00\u5B9A\u65F6\u95F4\u5185\u5BF9\u654C\u4EBA\u9020\u6210\u4F24\u5BB3\u3002"
+    Description_en: Deal damage to the enemy over time after attacking with the main
+      weapon.
+    Description_tw: "\u7528\u4E3B\u6B66\u5668\u653B\u64CA\u7684\u6575\u4EBA\uFF0C\u5728\u4E00\u5B9A\u6642\u9593\u5167\u5C0D\u6575\u4EBA\u9020\u6210\u50B7\u5BB3\u3002"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 55
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3.5
+    Description: "\u7D99\u7D9A\u6642\u9593\uFF0B0.5\u79D2"
+    Description_cn: "\u6301\u7EED\u65F6\u95F4+0.5\u79D2"
+    Description_en: Duration +0.5 sec.
+    Description_tw: "\u6301\u7E8C\u6642\u9593+0.5\u79D2"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 55
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3.5
+    Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u306E\u7BC4\u56F2+15\uFF05"
+    Description_cn: "\u4E3B\u6B66\u5668\u653B\u51FB\u8303\u56F4+15%"
+    Description_en: Main weapon Attack range+15%
+    Description_tw: "\u4E3B\u6B66\u5668\u653B\u64CA\u7BC4\u570D+15%"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 75
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3.5
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05"
+    Description_cn: "\u4F24\u5BB3+20%"
+    Description_en: Damage+20%
+    Description_tw: "\u50B7\u5BB3+20%"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 75
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 4
+    Description: "\u7D99\u7D9A\u6642\u9593\uFF0B0.5\u79D2\u3001\n\u30E1\u30A4\u30F3\u6B66\u5668\u306E\u7BC4\u56F2+15\uFF05 "
+    Description_cn: "\u6301\u7EED\u65F6\u95F4+0.5\u79D2\uFF0C\n\u4E3B\u6B66\u5668\u653B\u51FB\u8303\u56F4+15%"
+    Description_en: 'Duration +0.5 sec.
+
+      Main weapon Attack range+15%'
+    Description_tw: "\u6301\u7E8C\u6642\u9593+0.5\u79D2\uFF0C\n\u4E3B\u6B66\u5668\u653B\u64CA\u7BC4\u570D+15%"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 95
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 4
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05\u3001\n\u30E1\u30A4\u30F3\u6B66\u5668\u306E\u7BC4\u56F2+15\uFF05 "
+    Description_cn: "\u653B\u51FB\u8303\u56F4+15%"
+    Description_en: 'Damage+20%
+
+      Main weapon Attack range+15%'
+    Description_tw: "\u653B\u64CA\u7BC4\u570D+15%"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 95
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 5
+    Description: "\u7D99\u7D9A\u6642\u9593+1\u79D2"
+    Description_cn: "\u6301\u7EED\u65F6\u95F4+1\u79D2"
+    Description_en: Duration +1 sec.
+    Description_tw: "\u6301\u7E8C\u6642\u9593+1\u79D2"
+    Penetration: -1
+    exWeaponStatuses: []
+  ItemLevelDatas:
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas: []
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas: []
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.15
+      exItemStatus: 0
+      StatusType: 18
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.15
+      exItemStatus: 0
+      StatusType: 18
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.3
+      exItemStatus: 0
+      StatusType: 18
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.45
+      exItemStatus: 0
+      StatusType: 18
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.45
+      exItemStatus: 0
+      StatusType: 18

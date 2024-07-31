@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: DualTenkoAndMeigetsu
+  m_EditorClassIdentifier: 
+  ID: 1
+  Name: "\u62F3\u6CD5\u300C\u65CB\u98A8\u811A\u300D"
+  Name_cn: 
+  Name_en: Kempo "Senpukyaku"
+  Name_tw: 
+  basePrefab: {fileID: 6914289457468688376, guid: 84b4d321637c1fc4db9140f031e63c06,
+    type: 3}
+  image: {fileID: 21300000, guid: 41aace1a4ddb1354485904c1536c5782, type: 3}
+  abilityDataType: 0
+  TargetCharacterID: 2
+  Description: "\u524D\u65B9\u306B2\u56DE\u9023\u7D9A\u3067\u653B\u6483\u3059\u308B"
+  Description_en: Attack twice in front of you
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas:
+  - DamageRate: 100
+    Interval: 2.1
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.22
+    Description: "\u524D\u65B9\u306B2\u56DE\u9023\u7D9A\u3067\u653B\u6483\u3059\u308B\t"
+    Description_cn: 
+    Description_en: Attack twice in front of you
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 2.1
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.25
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.22
+    Description: "\u653B\u6483\u7BC4\u56F2+25\uFF05"
+    Description_cn: 
+    Description_en: Attack range+25%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 1.9
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.25
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.22
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05\u3001\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.2\u79D2"
+    Description_cn: 
+    Description_en: 'Damage+20%
+
+      This weapon''s CD -0.2 sec.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 1.9
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.5
+    Num: 1
+    Type: 1
+    Knockback: 0
+    Time: 0.22
+    Description: "\u653B\u6483\u7BC4\u56F2+25\uFF05\u3001\u79FB\u52D5\u901F\u5EA6+20%"
+    Description_cn: 
+    Description_en: 'Attack range+25%
+
+      Movement Speed +20%'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 1.9
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.5
+    Num: 1
+    Type: 1
+    Knockback: 300
+    Time: 0.22
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05\u3001\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\uFF08\u5C0F\uFF09\u8FFD\u52A0"
+    Description_cn: 
+    Description_en: 'Attack range+20%
+
+      Knockback(S)'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 1.6
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.75
+    Num: 1
+    Type: 1
+    Knockback: 300
+    Time: 0.22
+    Description: "\u653B\u6483\u7BC4\u56F2+25\uFF05 \u3001\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.2\u79D2"
+    Description_cn: 
+    Description_en: 'Attack range+25%
+
+      This weapon''s CD -0.2 sec.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 1.6
+    Speed: 0
+    AreaStr: "\u4E2D"
+    Size: 1.75
+    Num: 2
+    Type: 1
+    Knockback: 300
+    Time: 0.22
+    Description: "\u653B\u6483\u56DE\u6570+1\u3059\u308B \u300110\u56DE\u653B\u6483\u3059\u308B\u5EA6\u3001\u5F8C\u65B9\u5411\u306B\u5411\u304B\u3063\u30665\u672C\u653B\u6483\u529B100\uFF05\u8CAB\u901A\u3059\u308B\u5203\u3092\u98DB\u3070\u3059"
+    Description_cn: 
+    Description_en: The number of attacks for Kempo "Senpukyaku" is increased by
+      1. Every 10 attacks, throw 5 blades that canpierce through enemies.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 2
+      exStatus:
+        DamageRate: 100
+        Interval: 0.1
+        Speed: 200
+        AreaStr: "\u4E2D"
+        Size: 1
+        Num: 1
+        Type: 2
+        Knockback: 0
+        Time: 5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas: []

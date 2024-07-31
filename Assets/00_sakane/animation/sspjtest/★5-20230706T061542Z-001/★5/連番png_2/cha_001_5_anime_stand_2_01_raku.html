@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript">
+	    function doPreview() {
+	        var canvas = document.getElementById("canvas");
+	        var ctx = canvas.getContext("2d");
+
+			var imglist = [
+				'./cha_001_5_anime_stand_2_01_raku_0000.png',
+				'./cha_001_5_anime_stand_2_01_raku_0001.png',
+				'./cha_001_5_anime_stand_2_01_raku_0002.png',
+				'./cha_001_5_anime_stand_2_01_raku_0003.png',
+				'./cha_001_5_anime_stand_2_01_raku_0004.png',
+				'./cha_001_5_anime_stand_2_01_raku_0005.png',
+				'./cha_001_5_anime_stand_2_01_raku_0006.png',
+				'./cha_001_5_anime_stand_2_01_raku_0007.png',
+				'./cha_001_5_anime_stand_2_01_raku_0008.png',
+				'./cha_001_5_anime_stand_2_01_raku_0009.png',
+				'./cha_001_5_anime_stand_2_01_raku_0010.png',
+				'./cha_001_5_anime_stand_2_01_raku_0011.png',
+				'./cha_001_5_anime_stand_2_01_raku_0012.png',
+				'./cha_001_5_anime_stand_2_01_raku_0013.png',
+				'./cha_001_5_anime_stand_2_01_raku_0014.png',
+				'./cha_001_5_anime_stand_2_01_raku_0015.png',
+				'./cha_001_5_anime_stand_2_01_raku_0016.png',
+				'./cha_001_5_anime_stand_2_01_raku_0017.png',
+				'./cha_001_5_anime_stand_2_01_raku_0018.png',
+				'./cha_001_5_anime_stand_2_01_raku_0019.png',
+				'./cha_001_5_anime_stand_2_01_raku_0020.png',
+				'./cha_001_5_anime_stand_2_01_raku_0021.png',
+				'./cha_001_5_anime_stand_2_01_raku_0022.png',
+				'./cha_001_5_anime_stand_2_01_raku_0023.png',
+				'./cha_001_5_anime_stand_2_01_raku_0024.png',
+				'./cha_001_5_anime_stand_2_01_raku_0025.png',
+				'./cha_001_5_anime_stand_2_01_raku_0026.png',
+				'./cha_001_5_anime_stand_2_01_raku_0027.png',
+				'./cha_001_5_anime_stand_2_01_raku_0028.png',
+				'./cha_001_5_anime_stand_2_01_raku_0029.png',
+				'./cha_001_5_anime_stand_2_01_raku_0030.png',
+				'./cha_001_5_anime_stand_2_01_raku_0031.png',
+				'./cha_001_5_anime_stand_2_01_raku_0032.png',
+				'./cha_001_5_anime_stand_2_01_raku_0033.png',
+				'./cha_001_5_anime_stand_2_01_raku_0034.png',
+				'./cha_001_5_anime_stand_2_01_raku_0035.png',
+				'./cha_001_5_anime_stand_2_01_raku_0036.png',
+				'./cha_001_5_anime_stand_2_01_raku_0037.png',
+				'./cha_001_5_anime_stand_2_01_raku_0038.png',
+				'./cha_001_5_anime_stand_2_01_raku_0039.png',
+				'./cha_001_5_anime_stand_2_01_raku_0040.png',
+				'./cha_001_5_anime_stand_2_01_raku_0041.png',
+				'./cha_001_5_anime_stand_2_01_raku_0042.png',
+				'./cha_001_5_anime_stand_2_01_raku_0043.png',
+				'./cha_001_5_anime_stand_2_01_raku_0044.png',
+				'./cha_001_5_anime_stand_2_01_raku_0045.png',
+				'./cha_001_5_anime_stand_2_01_raku_0046.png',
+				'./cha_001_5_anime_stand_2_01_raku_0047.png',
+				'./cha_001_5_anime_stand_2_01_raku_0048.png',
+				'./cha_001_5_anime_stand_2_01_raku_0049.png',
+				'./cha_001_5_anime_stand_2_01_raku_0050.png',
+				'./cha_001_5_anime_stand_2_01_raku_0051.png',
+				'./cha_001_5_anime_stand_2_01_raku_0052.png',
+				'./cha_001_5_anime_stand_2_01_raku_0053.png',
+				'./cha_001_5_anime_stand_2_01_raku_0054.png',
+				'./cha_001_5_anime_stand_2_01_raku_0055.png',
+				'./cha_001_5_anime_stand_2_01_raku_0056.png',
+				'./cha_001_5_anime_stand_2_01_raku_0057.png',
+				'./cha_001_5_anime_stand_2_01_raku_0058.png',
+				'./cha_001_5_anime_stand_2_01_raku_0059.png',
+				'./cha_001_5_anime_stand_2_01_raku_0060.png',
+				'./cha_001_5_anime_stand_2_01_raku_0061.png',
+				'./cha_001_5_anime_stand_2_01_raku_0062.png',
+				'./cha_001_5_anime_stand_2_01_raku_0063.png',
+				'./cha_001_5_anime_stand_2_01_raku_0064.png',
+				'./cha_001_5_anime_stand_2_01_raku_0065.png',
+				'./cha_001_5_anime_stand_2_01_raku_0066.png',
+				'./cha_001_5_anime_stand_2_01_raku_0067.png',
+				'./cha_001_5_anime_stand_2_01_raku_0068.png',
+				'./cha_001_5_anime_stand_2_01_raku_0069.png',
+				'./cha_001_5_anime_stand_2_01_raku_0070.png',
+				'./cha_001_5_anime_stand_2_01_raku_0071.png',
+				'./cha_001_5_anime_stand_2_01_raku_0072.png',
+				'./cha_001_5_anime_stand_2_01_raku_0073.png',
+				'./cha_001_5_anime_stand_2_01_raku_0074.png',
+				'./cha_001_5_anime_stand_2_01_raku_0075.png',
+				'./cha_001_5_anime_stand_2_01_raku_0076.png',
+				'./cha_001_5_anime_stand_2_01_raku_0077.png',
+				'./cha_001_5_anime_stand_2_01_raku_0078.png',
+				'./cha_001_5_anime_stand_2_01_raku_0079.png',
+				'./cha_001_5_anime_stand_2_01_raku_0080.png',
+				'./cha_001_5_anime_stand_2_01_raku_0081.png',
+				'./cha_001_5_anime_stand_2_01_raku_0082.png',
+				'./cha_001_5_anime_stand_2_01_raku_0083.png',
+				'./cha_001_5_anime_stand_2_01_raku_0084.png',
+				'./cha_001_5_anime_stand_2_01_raku_0085.png',
+				'./cha_001_5_anime_stand_2_01_raku_0086.png',
+				'./cha_001_5_anime_stand_2_01_raku_0087.png',
+				'./cha_001_5_anime_stand_2_01_raku_0088.png',
+				'./cha_001_5_anime_stand_2_01_raku_0089.png',
+				'./cha_001_5_anime_stand_2_01_raku_0090.png',
+				'./cha_001_5_anime_stand_2_01_raku_0091.png',
+				'./cha_001_5_anime_stand_2_01_raku_0092.png',
+				'./cha_001_5_anime_stand_2_01_raku_0093.png',
+				'./cha_001_5_anime_stand_2_01_raku_0094.png',
+				'./cha_001_5_anime_stand_2_01_raku_0095.png',
+				'./cha_001_5_anime_stand_2_01_raku_0096.png',
+				'./cha_001_5_anime_stand_2_01_raku_0097.png',
+				'./cha_001_5_anime_stand_2_01_raku_0098.png',
+				'./cha_001_5_anime_stand_2_01_raku_0099.png',
+				'./cha_001_5_anime_stand_2_01_raku_0100.png',
+				'./cha_001_5_anime_stand_2_01_raku_0101.png',
+				'./cha_001_5_anime_stand_2_01_raku_0102.png',
+				'./cha_001_5_anime_stand_2_01_raku_0103.png',
+				'./cha_001_5_anime_stand_2_01_raku_0104.png',
+				'./cha_001_5_anime_stand_2_01_raku_0105.png',
+				'./cha_001_5_anime_stand_2_01_raku_0106.png',
+				'./cha_001_5_anime_stand_2_01_raku_0107.png',
+				'./cha_001_5_anime_stand_2_01_raku_0108.png',
+				'./cha_001_5_anime_stand_2_01_raku_0109.png',
+				'./cha_001_5_anime_stand_2_01_raku_0110.png',
+				'./cha_001_5_anime_stand_2_01_raku_0111.png',
+				'./cha_001_5_anime_stand_2_01_raku_0112.png',
+				'./cha_001_5_anime_stand_2_01_raku_0113.png',
+				'./cha_001_5_anime_stand_2_01_raku_0114.png',
+				'./cha_001_5_anime_stand_2_01_raku_0115.png',
+				'./cha_001_5_anime_stand_2_01_raku_0116.png',
+				'./cha_001_5_anime_stand_2_01_raku_0117.png',
+				'./cha_001_5_anime_stand_2_01_raku_0118.png',
+				'./cha_001_5_anime_stand_2_01_raku_0119.png',
+				'./cha_001_5_anime_stand_2_01_raku_0120.png',
+				'./cha_001_5_anime_stand_2_01_raku_0121.png',
+				'./cha_001_5_anime_stand_2_01_raku_0122.png',
+				'./cha_001_5_anime_stand_2_01_raku_0123.png',
+				'./cha_001_5_anime_stand_2_01_raku_0124.png',
+				'./cha_001_5_anime_stand_2_01_raku_0125.png',
+				'./cha_001_5_anime_stand_2_01_raku_0126.png',
+				'./cha_001_5_anime_stand_2_01_raku_0127.png',
+				'./cha_001_5_anime_stand_2_01_raku_0128.png',
+				'./cha_001_5_anime_stand_2_01_raku_0129.png',
+				'./cha_001_5_anime_stand_2_01_raku_0130.png',
+				'./cha_001_5_anime_stand_2_01_raku_0131.png',
+				'./cha_001_5_anime_stand_2_01_raku_0132.png',
+				'./cha_001_5_anime_stand_2_01_raku_0133.png',
+				'./cha_001_5_anime_stand_2_01_raku_0134.png',
+				'./cha_001_5_anime_stand_2_01_raku_0135.png',
+				'./cha_001_5_anime_stand_2_01_raku_0136.png',
+				'./cha_001_5_anime_stand_2_01_raku_0137.png',
+				'./cha_001_5_anime_stand_2_01_raku_0138.png',
+				'./cha_001_5_anime_stand_2_01_raku_0139.png',
+				'./cha_001_5_anime_stand_2_01_raku_0140.png',
+				'./cha_001_5_anime_stand_2_01_raku_0141.png',
+				'./cha_001_5_anime_stand_2_01_raku_0142.png',
+				'./cha_001_5_anime_stand_2_01_raku_0143.png',
+				'./cha_001_5_anime_stand_2_01_raku_0144.png',
+				'./cha_001_5_anime_stand_2_01_raku_0145.png',
+				'./cha_001_5_anime_stand_2_01_raku_0146.png',
+				'./cha_001_5_anime_stand_2_01_raku_0147.png',
+				'./cha_001_5_anime_stand_2_01_raku_0148.png',
+				'./cha_001_5_anime_stand_2_01_raku_0149.png',
+				'./cha_001_5_anime_stand_2_01_raku_0150.png',
+
+			];
+			
+			var imglistsize = imglist.length;
+			var img = new Array(imglistsize);
+			for ( var i = 0 ; i < imglistsize ; i++ )
+			{
+				img[i] = new Image();
+				img[i].src = imglist[i];
+			}
+			
+			var cnt = 0;
+	        setInterval(function () {
+	            ctx.save();
+	            ctx.clearRect(-1280, -1280, 1280 * 2, 1280 * 2);
+				ctx.drawImage( img[cnt] , 0 , 0 );
+	            ctx.restore();
+				cnt++;
+				if (cnt >= imglistsize ) cnt = 0;
+	        }, 16);
+
+	    };
+	</script>
+</head>
+
+<body onLoad="doPreview()">
+    <div id="Screen" style="font-size:8px;text-align:center;"></div>
+	<canvas id="canvas" width="1280" height="1280">
+	</canvas>
+</body>
+
+</html>

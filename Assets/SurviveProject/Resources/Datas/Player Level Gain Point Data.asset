@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318d08f4f458cf5438e5727532f889a5, type: 3}
+  m_Name: Player Level Gain Point Data
+  m_EditorClassIdentifier: 
+  data:
+  - level: 1
+    point: 3
+  - level: 2
+    point: 3
+  - level: 3
+    point: 3
+  - level: 4
+    point: 3
+  - level: 5
+    point: 3
+  - level: 6
+    point: 4
+  - level: 7
+    point: 4
+  - level: 8
+    point: 4
+  - level: 9
+    point: 4
+  - level: 10
+    point: 4
+  - level: 11
+    point: 5
+  - level: 12
+    point: 5
+  - level: 13
+    point: 5
+  - level: 14
+    point: 5
+  - level: 15
+    point: 5
+  - level: 16
+    point: 6
+  - level: 17
+    point: 6
+  - level: 18
+    point: 6
+  - level: 19
+    point: 6
+  - level: 20
+    point: 6
+  - level: 21
+    point: 7
+  - level: 22
+    point: 7
+  - level: 23
+    point: 7
+  - level: 24
+    point: 7
+  - level: 25
+    point: 7
+  - level: 26
+    point: 8
+  - level: 27
+    point: 8
+  - level: 28
+    point: 8
+  - level: 29
+    point: 8
+  - level: 30
+    point: 8
+  - level: 31
+    point: 9
+  - level: 32
+    point: 9
+  - level: 33
+    point: 9
+  - level: 34
+    point: 9
+  - level: 35
+    point: 9
+  - level: 36
+    point: 10
+  - level: 37
+    point: 10
+  - level: 38
+    point: 10
+  - level: 39
+    point: 10
+  - level: 40
+    point: 10
+  - level: 41
+    point: 11
+  - level: 42
+    point: 11
+  - level: 43
+    point: 11
+  - level: 44
+    point: 11
+  - level: 45
+    point: 11
+  - level: 46
+    point: 12
+  - level: 47
+    point: 12
+  - level: 48
+    point: 12
+  - level: 49
+    point: 12
+  - level: 50
+    point: 12
+  - level: 51
+    point: 13
+  - level: 52
+    point: 13
+  - level: 53
+    point: 13
+  - level: 54
+    point: 13
+  - level: 55
+    point: 13
+  - level: 56
+    point: 14
+  - level: 57
+    point: 14
+  - level: 58
+    point: 14
+  - level: 59
+    point: 14
+  - level: 60
+    point: 14
+  - level: 61
+    point: 15
+  - level: 62
+    point: 15
+  - level: 63
+    point: 15
+  - level: 64
+    point: 15
+  - level: 65
+    point: 15
+  - level: 66
+    point: 16
+  - level: 67
+    point: 16
+  - level: 68
+    point: 16
+  - level: 69
+    point: 16
+  - level: 70
+    point: 16
+  - level: 71
+    point: 17
+  - level: 72
+    point: 17
+  - level: 73
+    point: 17
+  - level: 74
+    point: 17
+  - level: 75
+    point: 17
+  - level: 76
+    point: 18
+  - level: 77
+    point: 18
+  - level: 78
+    point: 18
+  - level: 79
+    point: 18
+  - level: 80
+    point: 18
+  - level: 81
+    point: 19
+  - level: 82
+    point: 19
+  - level: 83
+    point: 19
+  - level: 84
+    point: 19
+  - level: 85
+    point: 19
+  - level: 86
+    point: 20
+  - level: 87
+    point: 20
+  - level: 88
+    point: 20
+  - level: 89
+    point: 20
+  - level: 90
+    point: 20
+  - level: 91
+    point: 21
+  - level: 92
+    point: 21
+  - level: 93
+    point: 21
+  - level: 94
+    point: 21
+  - level: 95
+    point: 21
+  - level: 96
+    point: 22
+  - level: 97
+    point: 22
+  - level: 98
+    point: 22
+  - level: 99
+    point: 22
+  - level: 100
+    point: 22
+  - level: 101
+    point: 23

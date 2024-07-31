@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Manekineko
+  m_EditorClassIdentifier: 
+  ID: 117
+  Name: "\u5B88\u92AD\u5974\u306E\u58FA"
+  Name_cn: 
+  Name_en: Pot of Niggard
+  Name_tw: 
+  basePrefab: {fileID: 0}
+  image: {fileID: 21300000, guid: eab6d3661404d2941926a7893721812d, type: 3}
+  abilityDataType: 2
+  TargetCharacterID: -1
+  Description: "\u30C9\u30ED\u30C3\u30D7\u3057\u305F\u300C\u30DD\u30FC\u30B7\u30E7\u30F3\u300D\u306F\u3059\u3079\u3066\u300C\u30B3\u30A4\u30F3\u300D\u306B\u306A\u308B\u3002\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8+35\uFF05"
+  Description_en: All "portion" dropped become "coins",  damage taken +35%
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas: []
+  ItemLevelDatas:
+  - Description: "\u30C9\u30ED\u30C3\u30D7\u3057\u305F\u300C\u30DD\u30FC\u30B7\u30E7\u30F3\u300D\u306F\u3059\u3079\u3066
+      \u300C\u30B3\u30A4\u30F3\u300D\u306B\u306A\u308B\u3002\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8+35\uFF05"
+    Description_en: All "portion" dropped become "coins",  damage taken +35%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0
+      exItemStatus: 1
+      StatusType: 0
+    - value: 0.35
+      exItemStatus: 0
+      StatusType: 16

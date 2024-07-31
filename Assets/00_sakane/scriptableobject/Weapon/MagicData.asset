@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: MagicData
+  m_EditorClassIdentifier: 
+  ID: 19
+  Name: "\u9B54\u5C0E\u66F8\u300C\u30B0\u30EA\u30E2\u30A2\u300D"
+  Name_cn: chi
+  Name_en: Magic book "Grimore"
+  Name_tw: chi
+  basePrefab: {fileID: 4639432623832281203, guid: e21fe0a7a5cfdb84aada36fb93292f5f,
+    type: 3}
+  image: {fileID: 21300000, guid: 55a569446a8f6c04abb9e95b523e7399, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: 1
+  Description: "\u524D\u65B9\u306B\u9B54\u529B\u5F3E\u3092\u98DB\u3070\u3057\u653B\u6483\u3059\u308B  "
+  Description_en: Fly the magical bullet to the front and attack
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas:
+  - DamageRate: 100
+    Interval: 1.1
+    Speed: 200
+    AreaStr: "\u306A\u3057"
+    Size: 1
+    Num: 3
+    Type: 2
+    Knockback: 0
+    Time: 1
+    Description: "\u524D\u65B9\u306B\u9B54\u529B\u5F3E\u3092\u98DB\u3070\u3057\u653B\u6483\u3059\u308B  "
+    Description_cn: "\u5411\u6700\u8FD1\u7684\u654C\u4EBA\u53D1\u5C04\u624B\u91CC\u5251\u3002"
+    Description_en: Fly the magical bullet to the front and attack
+    Description_tw: "\u5411\u6700\u8FD1\u7684\u6575\u4EBA\u767C\u5C04\u624B\u88CF\u528D\u3002"
+    Penetration: 1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 1.2
+    Speed: 200
+    AreaStr: "\u306A\u3057"
+    Size: 1
+    Num: 1
+    Type: 2
+    Knockback: 0
+    Time: 1
+    Description: "\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.2\u79D2"
+    Description_cn: "\u6B64\u6B66\u5668\u7684\u653B\u51FB\u95F4\u9694 -0.2 \u79D2"
+    Description_en: This weapon's  CD -0.2 sec.
+    Description_tw: "\u6B64\u6B66\u5668\u7684\u653B\u64CA\u9593\u9694-0.2 \u79D2"
+    Penetration: 1
+    exWeaponStatuses:
+    - value1: 1
+      value2: 0
+      exWeaponStatus: 5
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 5
+        exWeaponStatusValue: 0
+  - DamageRate: 100
+    Interval: 1.2
+    Speed: 200
+    AreaStr: "\u306A\u3057"
+    Size: 1
+    Num: 2
+    Type: 2
+    Knockback: 0
+    Time: 1
+    Description: "\u30C0\u30E1\u30FC\u30B8+10\uFF05\n\u9B54\u529B\u5F3E\u6570+1"
+    Description_cn: "\u4F24\u5BB3+10%\n\u624B\u91CC\u5251\u6570\u91CF+1"
+    Description_en: 'Damage+10%
+
+      Number of Magic bullets+1'
+    Description_tw: "\u653B\u64CA\u500D\u7387+10%\n\u624B\u88CF\u528D\u6578\u91CF+1"
+    Penetration: 1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 0.8
+    Speed: 200
+    AreaStr: "\u306A\u3057"
+    Size: 1
+    Num: 2
+    Type: 2
+    Knockback: 0
+    Time: 1
+    Description: "\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.2\u79D2\u3000\n\u30C0\u30E1\u30FC\u30B8+10\uFF05"
+    Description_cn: "\u6B64\u6B66\u5668\u7684\u653B\u51FB\u95F4\u9694 -0.2\u79D2\n\u4F24\u5BB3+10%"
+    Description_en: 'This weapon''s  CD -0.2 sec.
+
+      Damage+10%'
+    Description_tw: "\u6B64\u6B66\u5668\u7684\u653B\u64CA\u9593\u9694-0.2\u79D2\n\u653B\u64CA\u500D\u7387+10%"
+    Penetration: 1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 0.5
+    Speed: 200
+    AreaStr: "\u306A\u3057"
+    Size: 1
+    Num: 2
+    Type: 2
+    Knockback: 0
+    Time: 1
+    Description: "\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.3\u79D2\u3000\n\u30C0\u30E1\u30FC\u30B8+20\uFF05"
+    Description_cn: "\u6B64\u6B66\u5668\u7684\u653B\u51FB\u95F4\u9694 -0.3\u79D2\n\u4F24\u5BB3+20%"
+    Description_en: 'This weapon''s  CD -0.3 sec.
+
+      Damage+20%'
+    Description_tw: "\u6B64\u6B66\u5668\u7684\u653B\u64CA\u9593\u9694-0.3\u79D2\n\u653B\u64CA\u500D\u7387+20%"
+    Penetration: 1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 0.5
+    Speed: 200
+    AreaStr: "\u306A\u3057"
+    Size: 1
+    Num: 3
+    Type: 2
+    Knockback: 0
+    Time: 1
+    Description: "\u9B54\u529B\u5F3E\u6570+1"
+    Description_cn: "\u624B\u91CC\u5251\u6570\u91CF+1"
+    Description_en: Number of Magic bullets+1
+    Description_tw: "\u624B\u88CF\u528D\u6578\u91CF+1"
+    Penetration: 1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 0.5
+    Speed: 200
+    AreaStr: "\u306A\u3057"
+    Size: 1
+    Num: 4
+    Type: 2
+    Knockback: 0
+    Time: 1
+    Description: "\u9B54\u529B\u5F3E\u6570+1\n\u9B54\u529B\u5F3E\u306F\u6575\u306E\u9593\u306B1\u56DE\u5F3E\u304F\u3088\u3046\u306B\u306A\u308B"
+    Description_cn: "\u624B\u91CC\u5251\u6570\u91CF+1\n\u624B\u91CC\u5251\u4F1A\u5728\u51FB\u4E2D\u654C\u4EBA\u540E\u5F39\u5C04\u4E00\u6B21"
+    Description_en: 'Number of Magic bullets+1
+
+      The Shuriken bounces once between
+      enemies.'
+    Description_tw: "\u624B\u88CF\u528D\u6578\u91CF+1\n\u624B\u88CF\u528D\u6703\u5728\u64CA\u4E2D\u6575\u4EBA\u5F8C\u5F48\u5C04\u4E00\u6B21"
+    Penetration: 2
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 1
+      exStatus:
+        DamageRate: 10
+        Interval: 1
+        Speed: 1
+        AreaStr: "\u4E2D"
+        Size: 1
+        Num: 1
+        Type: 1
+        Knockback: 0
+        Time: 0.5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas: []

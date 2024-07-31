@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Kunai
+  m_EditorClassIdentifier: 
+  ID: 7
+  Name: "\u30BF\u30ED\u30C3\u30C8"
+  Name_cn: 
+  Name_en: Tarot
+  Name_tw: 
+  basePrefab: {fileID: 3391374693648887155, guid: 9bdc718c24ce11d4ab3a830fa3763317,
+    type: 3}
+  image: {fileID: 21300000, guid: 4347eb652678b9347b94283cd3897d8d, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: -1
+  Description: "\u81EA\u8EAB\u306E\u5468\u308A\u3092\u65CB\u56DE\u3059\u308B"
+  Description_en: that spin around oneself.
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas:
+  - DamageRate: 130
+    Interval: 6
+    Speed: 100
+    AreaStr: "\u4E2D"
+    Size: 0.7
+    Num: 2
+    Type: 2
+    Knockback: 0
+    Time: 3
+    Description: "\u30BF\u30ED\u30C3\u30C8\u304C\u81EA\u8EAB\u306E\u5468\u308A\u3092\u65CB\u56DE\u3059\u308B"
+    Description_cn: 
+    Description_en: Tarot that spin around oneself.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 130
+    Interval: 6
+    Speed: 100
+    AreaStr: "\u4E2D"
+    Size: 0.7
+    Num: 4
+    Type: 2
+    Knockback: 0
+    Time: 3
+    Description: "\u30BF\u30ED\u30C3\u30C8\u306E\u6570+2"
+    Description_cn: 
+    Description_en: Number of Tarot +2
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 130
+    Interval: 6
+    Speed: 100
+    AreaStr: "\u4E2D"
+    Size: 0.7
+    Num: 4
+    Type: 2
+    Knockback: 0
+    Time: 3.3
+    Description: "\u7D99\u7D9A\u6642\u9593+0.3\u79D2\u3001"
+    Description_cn: 
+    Description_en: Duration +0.3 sec.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 5.7
+    Speed: 100
+    AreaStr: "\u4E2D"
+    Size: 0.7
+    Num: 4
+    Type: 2
+    Knockback: 0
+    Time: 3.3
+    Description: "\u30C0\u30E1\u30FC\u30B8+10\uFF05\u3000\n\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.3\u79D2"
+    Description_cn: 
+    Description_en: 'Damage+10%
+
+      weapon''s  CD -0.3 sec.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 160
+    Interval: 5.7
+    Speed: 100
+    AreaStr: "\u4E2D"
+    Size: 0.9
+    Num: 4
+    Type: 2
+    Knockback: 0
+    Time: 3.3
+    Description: "\u653B\u6483\u7BC4\u56F2+20\uFF05\u3000\n\u30C0\u30E1\u30FC\u30B8+20\uFF05"
+    Description_cn: 
+    Description_en: 'Attack range+20%
+
+      Damage+20%'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 160
+    Interval: 5.2
+    Speed: 100
+    AreaStr: "\u4E2D"
+    Size: 0.9
+    Num: 4
+    Type: 2
+    Knockback: 0
+    Time: 3.6
+    Description: "\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.5\u79D2\u3000\n\u7D99\u7D9A\u6642\u9593+0.3\u79D2"
+    Description_cn: 
+    Description_en: 'weapon''s  CD -0.5 sec.
+
+      Duration +0.3 sec.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 180
+    Interval: 5.2
+    Speed: 100
+    AreaStr: "\u4E2D"
+    Size: 0.9
+    Num: 6
+    Type: 2
+    Knockback: 0
+    Time: 3.6
+    Description: "\u30BF\u30ED\u30C3\u30C8\u306E\u6570+2\u3000\n\u30C0\u30E1\u30FC\u30B8+20\uFF05"
+    Description_cn: 
+    Description_en: 'Number of Tarot +2
+
+      Damage+20%'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  ItemLevelDatas: []

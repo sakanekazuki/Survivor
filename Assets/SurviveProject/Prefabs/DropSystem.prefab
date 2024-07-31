@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8308262817494136095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4501626030651901201}
+  - component: {fileID: 2158693394203587759}
+  m_Layer: 13
+  m_Name: DropSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4501626030651901201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8308262817494136095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2158693394203587759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8308262817494136095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2726c1877f21c9c4ba7243148661f1c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthItem: {fileID: 3626897347593482769, guid: d898bd0e54e23d84f96da30fab07a52f,
+    type: 3}
+  Coin: {fileID: 1136408400419902, guid: b15583750a4bbef45ae997c1447f4364, type: 3}
+  EXPItem1: {fileID: 1489628332787134, guid: 615f2abd598cb7a4584f93dff5223cde, type: 3}
+  EXPItem2: {fileID: 1489628332787134, guid: 7341a53edfb215e41b3b75fe15534aa4, type: 3}
+  EXPItem3: {fileID: 1489628332787134, guid: 81dda68deee8ce74bb3f4aef4490a012, type: 3}
+  Box: {fileID: 1136408400419902, guid: da516725a117dee4f98e7e25b268857b, type: 3}
+  Hamaya: {fileID: 1136408400419902, guid: ea6aa8a7d0923e746b5a2d4ad601b374, type: 3}
+  Rainbow: {fileID: 1136408400419902, guid: 7c528c485ec1ad54498f0a75930da792, type: 3}
+  parent: {fileID: 0}

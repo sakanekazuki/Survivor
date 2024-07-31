@@ -1,0 +1,657 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb919835a169044ebc97efbef5b576d, type: 3}
+  m_Name: Enemy Datas
+  m_EditorClassIdentifier: 
+  datas:
+  - ID: 1
+    NAME: "\u65751\u7389"
+    ATTACK: 1
+    SPEED: 0.9
+    MAX_HP: 8
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.3
+    POOL_MAX: 40
+    Prefab: {fileID: 1561694053617324, guid: 6641d8e0771bb0f4bb2250ca75f6a7d7, type: 3}
+  - ID: 2
+    NAME: "\u65752\u7389"
+    ATTACK: 1
+    SPEED: 1.2
+    MAX_HP: 8
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.2
+    POOL_MAX: 35
+    Prefab: {fileID: 1561694053617324, guid: d8b9d0b867b12464dad9dac07f99c1b4, type: 3}
+  - ID: 3
+    NAME: "\u65753\u7389"
+    ATTACK: 3
+    SPEED: 1.4
+    MAX_HP: 13
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.3
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 61499b456f80d0042a2f3bf83c01f9b4, type: 3}
+  - ID: 4
+    NAME: "\u65754\u7389"
+    ATTACK: 5
+    SPEED: 1.6
+    MAX_HP: 15
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.4
+    POOL_MAX: 50
+    Prefab: {fileID: 1561694053617324, guid: 7664b8f534bb157449ffc2e0a48898a6, type: 3}
+  - ID: 5
+    NAME: "\u65755\u7389"
+    ATTACK: 6
+    SPEED: 2.5
+    MAX_HP: 30
+    PATTERN: 2
+    SIZE: 2
+    INTERVAL: 1
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 7664b8f534bb157449ffc2e0a48898a6, type: 3}
+  - ID: 6
+    NAME: "\u65756\u7389boss"
+    ATTACK: 2
+    SPEED: 2
+    MAX_HP: 30
+    PATTERN: 3
+    SIZE: 1.5
+    INTERVAL: 1
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 06a94a6287c729544b5b6c8221d72353, type: 3}
+  - ID: 7
+    NAME: "\u65757\u86C7"
+    ATTACK: 2
+    SPEED: 1.3
+    MAX_HP: 18
+    PATTERN: 1
+    SIZE: 0.5
+    INTERVAL: 0.3
+    POOL_MAX: 70
+    Prefab: {fileID: 3615260095704177807, guid: 4cc1e7a12789ec34f8c6b6ef17c3ca49,
+      type: 3}
+  - ID: 8
+    NAME: "\u65758\u86C7"
+    ATTACK: 2
+    SPEED: 2.2
+    MAX_HP: 16
+    PATTERN: 1
+    SIZE: 0.5
+    INTERVAL: 2.2
+    POOL_MAX: 1
+    Prefab: {fileID: 6419858714409885228, guid: 05f9aeabba5473e42b82e28b63e36212,
+      type: 3}
+  - ID: 9
+    NAME: "\u65759tama"
+    ATTACK: 2
+    SPEED: 3
+    MAX_HP: 21
+    PATTERN: 1
+    SIZE: 0.5
+    INTERVAL: 0.8
+    POOL_MAX: 50
+    Prefab: {fileID: 1561694053617324, guid: 61499b456f80d0042a2f3bf83c01f9b4, type: 3}
+  - ID: 10
+    NAME: "\u657510\u86C7"
+    ATTACK: 5
+    SPEED: 1.6
+    MAX_HP: 30
+    PATTERN: 1
+    SIZE: 0.55
+    INTERVAL: 1.5
+    POOL_MAX: 1
+    Prefab: {fileID: 4937371816925193202, guid: 199d2188ae2d5254892b17a826385e1b,
+      type: 3}
+  - ID: 11
+    NAME: "\u657511hebi"
+    ATTACK: 8
+    SPEED: 1.9
+    MAX_HP: 120
+    PATTERN: 1
+    SIZE: 0.55
+    INTERVAL: 10
+    POOL_MAX: 100
+    Prefab: {fileID: 2094531720518145491, guid: 5d08dc751f965ef4f9d5ee8c6f4c88eb,
+      type: 3}
+  - ID: 12
+    NAME: "\u657512ga"
+    ATTACK: 8
+    SPEED: 4.1
+    MAX_HP: 30
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 10
+    POOL_MAX: 100
+    Prefab: {fileID: 1561694053617324, guid: 6986c176fe8f198448d14c0ec4885a77, type: 3}
+  - ID: 13
+    NAME: "\u657513hebi"
+    ATTACK: 10
+    SPEED: 2
+    MAX_HP: 50
+    PATTERN: 1
+    SIZE: 0.6
+    INTERVAL: 1
+    POOL_MAX: 20
+    Prefab: {fileID: 6419858714409885228, guid: 05f9aeabba5473e42b82e28b63e36212,
+      type: 3}
+  - ID: 14
+    NAME: "\u657514hebiboss"
+    ATTACK: 10
+    SPEED: 3.66
+    MAX_HP: 45
+    PATTERN: 3
+    SIZE: 1.3
+    INTERVAL: 1
+    POOL_MAX: 50
+    Prefab: {fileID: 5960230809141063839, guid: 094fee0b5c7a2664585993ee2f25a1a7,
+      type: 3}
+  - ID: 15
+    NAME: "\u657515\u6D77\u574A\u4E3B"
+    ATTACK: 15
+    SPEED: 2
+    MAX_HP: 70
+    PATTERN: 1
+    SIZE: 0.3
+    INTERVAL: 1
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: b81445d12e368dc42945b023417901bb, type: 3}
+  - ID: 16
+    NAME: "\u657516umi"
+    ATTACK: 10
+    SPEED: 1.6
+    MAX_HP: 65
+    PATTERN: 1
+    SIZE: 0.3
+    INTERVAL: 0.8
+    POOL_MAX: 65
+    Prefab: {fileID: 1561694053617324, guid: 073fe65d4aaca8f4aabce61873f5ac3f, type: 3}
+  - ID: 17
+    NAME: "\u657517umi"
+    ATTACK: 4
+    SPEED: 1.8
+    MAX_HP: 65
+    PATTERN: 1
+    SIZE: 0.3
+    INTERVAL: 0.3
+    POOL_MAX: 100
+    Prefab: {fileID: 1561694053617324, guid: 2060a47c01dc25e45b8dbf8b203a2bf3, type: 3}
+  - ID: 18
+    NAME: "\u657518hebi"
+    ATTACK: 6
+    SPEED: 2.3
+    MAX_HP: 35
+    PATTERN: 2
+    SIZE: 0.5
+    INTERVAL: 13
+    POOL_MAX: 3
+    Prefab: {fileID: 2094531720518145491, guid: 5d08dc751f965ef4f9d5ee8c6f4c88eb,
+      type: 3}
+  - ID: 19
+    NAME: "\u657519umi"
+    ATTACK: 6
+    SPEED: 1.9
+    MAX_HP: 360
+    PATTERN: 1
+    SIZE: 0.5
+    INTERVAL: 25
+    POOL_MAX: 15
+    Prefab: {fileID: 1561694053617324, guid: 0e14637a5e95c384881b9628b08068e9, type: 3}
+  - ID: 20
+    NAME: "\u657520tama"
+    ATTACK: 10
+    SPEED: 2.8
+    MAX_HP: 45
+    PATTERN: 2
+    SIZE: 0.5
+    INTERVAL: 10
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 61499b456f80d0042a2f3bf83c01f9b4, type: 3}
+  - ID: 21
+    NAME: "\u657521umi"
+    ATTACK: 7
+    SPEED: 1.8
+    MAX_HP: 88
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.43
+    POOL_MAX: 70
+    Prefab: {fileID: 1561694053617324, guid: 2060a47c01dc25e45b8dbf8b203a2bf3, type: 3}
+  - ID: 22
+    NAME: "\u657522umiboss"
+    ATTACK: 15
+    SPEED: 2.9
+    MAX_HP: 55
+    PATTERN: 3
+    SIZE: 1.5
+    INTERVAL: 10
+    POOL_MAX: 70
+    Prefab: {fileID: 1561694053617324, guid: e86abef4a2517a548a45aef1b1ff30fd, type: 3}
+  - ID: 23
+    NAME: "\u657523umi"
+    ATTACK: 12
+    SPEED: 1.9
+    MAX_HP: 100
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 3
+    POOL_MAX: 5
+    Prefab: {fileID: 1561694053617324, guid: 003ed3138c0d13f42b1ca1e0b49787d5, type: 3}
+  - ID: 24
+    NAME: "\u657524tma"
+    ATTACK: 12
+    SPEED: 3.2
+    MAX_HP: 68
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.3
+    POOL_MAX: 50
+    Prefab: {fileID: 1561694053617324, guid: d8b9d0b867b12464dad9dac07f99c1b4, type: 3}
+  - ID: 25
+    NAME: "\u657525ga"
+    ATTACK: 18
+    SPEED: 3.66
+    MAX_HP: 100
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 2
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: c46e48bb797d2e94f9eadb7ce2fb57c0, type: 3}
+  - ID: 26
+    NAME: "\u657526hannia"
+    ATTACK: 9
+    SPEED: 4
+    MAX_HP: 70
+    PATTERN: 3
+    SIZE: 1.3
+    INTERVAL: 10
+    POOL_MAX: 80
+    Prefab: {fileID: 1561694053617324, guid: 8bbc2bb7821985042a92a2e19eff2c86, type: 3}
+  - ID: 27
+    NAME: "\u657527ga"
+    ATTACK: 9
+    SPEED: 3.2
+    MAX_HP: 60
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.3
+    POOL_MAX: 40
+    Prefab: {fileID: 1561694053617324, guid: 1dc82ae56c3c7f246a75bcf8e813f66a, type: 3}
+  - ID: 28
+    NAME: "\u657528kumo"
+    ATTACK: 13
+    SPEED: 1.4
+    MAX_HP: 60
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.3
+    POOL_MAX: 3
+    Prefab: {fileID: 1561694053617324, guid: ea8f8e921ae75c549bc239955780ab58, type: 3}
+  - ID: 29
+    NAME: "\u657529hebi"
+    ATTACK: 13
+    SPEED: 3.1
+    MAX_HP: 60
+    PATTERN: 1
+    SIZE: 0.6
+    INTERVAL: 0.4
+    POOL_MAX: 50
+    Prefab: {fileID: 4937371816925193202, guid: 199d2188ae2d5254892b17a826385e1b,
+      type: 3}
+  - ID: 30
+    NAME: "\u657530umi"
+    ATTACK: 18
+    SPEED: 1.4
+    MAX_HP: 140
+    PATTERN: 1
+    SIZE: 0.5
+    INTERVAL: 0.4
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 003ed3138c0d13f42b1ca1e0b49787d5, type: 3}
+  - ID: 31
+    NAME: "\u657530kumo"
+    ATTACK: 25
+    SPEED: 3.6
+    MAX_HP: 180
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.6
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 5b413b92fc525814490379d9a7c9313d, type: 3}
+  - ID: 32
+    NAME: "\u657532umi"
+    ATTACK: 15
+    SPEED: 3.48
+    MAX_HP: 400
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 8
+    POOL_MAX: 35
+    Prefab: {fileID: 1561694053617324, guid: 6986c176fe8f198448d14c0ec4885a77, type: 3}
+  - ID: 33
+    NAME: "\u657533\u7389"
+    ATTACK: 1
+    SPEED: 1.86
+    MAX_HP: 50
+    PATTERN: 1
+    SIZE: 0.4
+    INTERVAL: 0.2
+    POOL_MAX: 35
+    Prefab: {fileID: 1561694053617324, guid: 7664b8f534bb157449ffc2e0a48898a6, type: 3}
+  - ID: 34
+    NAME: "\u657534\u86FE"
+    ATTACK: 12
+    SPEED: 3.3
+    MAX_HP: 180
+    PATTERN: 3
+    SIZE: 1.5
+    INTERVAL: 50
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: c3f0ac98af794f641867732baa3bddc2, type: 3}
+  - ID: 35
+    NAME: "\u657535ga"
+    ATTACK: 8
+    SPEED: 4.4
+    MAX_HP: 100
+    PATTERN: 1
+    SIZE: 0.3
+    INTERVAL: 0.2
+    POOL_MAX: 50
+    Prefab: {fileID: 1561694053617324, guid: 1dc82ae56c3c7f246a75bcf8e813f66a, type: 3}
+  - ID: 36
+    NAME: "\u657536ga"
+    ATTACK: 8
+    SPEED: 3.88
+    MAX_HP: 75
+    PATTERN: 1
+    SIZE: 0.3
+    INTERVAL: 0.2
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 61499b456f80d0042a2f3bf83c01f9b4, type: 3}
+  - ID: 37
+    NAME: "\u657537ga"
+    ATTACK: 8
+    SPEED: 4.26
+    MAX_HP: 75
+    PATTERN: 1
+    SIZE: 0.3
+    INTERVAL: 0.3
+    POOL_MAX: 3
+    Prefab: {fileID: 1561694053617324, guid: 0e14637a5e95c384881b9628b08068e9, type: 3}
+  - ID: 38
+    NAME: "\u657538kumo"
+    ATTACK: 10
+    SPEED: 2
+    MAX_HP: 360
+    PATTERN: 1
+    SIZE: 0.3
+    INTERVAL: 0.25
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 3261049b3d3e6a046a31f550c5471049, type: 3}
+  - ID: 39
+    NAME: "\u657539\u8718\u86DB"
+    ATTACK: 10
+    SPEED: 3
+    MAX_HP: 260
+    PATTERN: 1
+    SIZE: 0.3
+    INTERVAL: 0.3
+    POOL_MAX: 30
+    Prefab: {fileID: 1561694053617324, guid: ea8f8e921ae75c549bc239955780ab58, type: 3}
+  - ID: 40
+    NAME: "\u657540\u8718\u86DB"
+    ATTACK: 12
+    SPEED: 2.6
+    MAX_HP: 400
+    PATTERN: 1
+    SIZE: 0.45
+    INTERVAL: 0.27
+    POOL_MAX: 50
+    Prefab: {fileID: 1561694053617324, guid: 4c16b62fe55e92042be531615c675b8e, type: 3}
+  - ID: 41
+    NAME: "\u657541umi"
+    ATTACK: 10
+    SPEED: 1.3
+    MAX_HP: 500
+    PATTERN: 1
+    SIZE: 0.45
+    INTERVAL: 0.18
+    POOL_MAX: 50
+    Prefab: {fileID: 1561694053617324, guid: 003ed3138c0d13f42b1ca1e0b49787d5, type: 3}
+  - ID: 42
+    NAME: "\u657542kumo"
+    ATTACK: 20
+    SPEED: 3.45
+    MAX_HP: 230
+    PATTERN: 3
+    SIZE: 1.5
+    INTERVAL: 10
+    POOL_MAX: 55
+    Prefab: {fileID: 1561694053617324, guid: 05c67e2866d72984ab1f9b22a727378f, type: 3}
+  - ID: 43
+    NAME: "\u657543kumo"
+    ATTACK: 15
+    SPEED: 2.2
+    MAX_HP: 50
+    PATTERN: 2
+    SIZE: 0.45
+    INTERVAL: 0.17
+    POOL_MAX: 55
+    Prefab: {fileID: 1561694053617324, guid: 3261049b3d3e6a046a31f550c5471049, type: 3}
+  - ID: 44
+    NAME: "\u657544itachi"
+    ATTACK: 10
+    SPEED: 2
+    MAX_HP: 350
+    PATTERN: 1
+    SIZE: 0.45
+    INTERVAL: 0.3
+    POOL_MAX: 65
+    Prefab: {fileID: 1561694053617324, guid: 29bd1b7bb99f576408cf5987d8b25635, type: 3}
+  - ID: 45
+    NAME: "\u657545itachi"
+    ATTACK: 25
+    SPEED: 2.8
+    MAX_HP: 500
+    PATTERN: 1
+    SIZE: 0.5
+    INTERVAL: 0.59
+    POOL_MAX: 10
+    Prefab: {fileID: 1561694053617324, guid: b22a907bf2067c9468214af510a13899, type: 3}
+  - ID: 46
+    NAME: "\u657546hebi"
+    ATTACK: 25
+    SPEED: 2.8
+    MAX_HP: 50
+    PATTERN: 2
+    SIZE: 0.5
+    INTERVAL: 0.25
+    POOL_MAX: 50
+    Prefab: {fileID: 4937371816925193202, guid: 199d2188ae2d5254892b17a826385e1b,
+      type: 3}
+  - ID: 47
+    NAME: "\u657547kumo"
+    ATTACK: 25
+    SPEED: 2
+    MAX_HP: 200
+    PATTERN: 1
+    SIZE: 0.5
+    INTERVAL: 0.25
+    POOL_MAX: 50
+    Prefab: {fileID: 1561694053617324, guid: 3261049b3d3e6a046a31f550c5471049, type: 3}
+  - ID: 48
+    NAME: "\u657548itachi"
+    ATTACK: 25
+    SPEED: 3
+    MAX_HP: 255
+    PATTERN: 3
+    SIZE: 1.5
+    INTERVAL: 10
+    POOL_MAX: 10
+    Prefab: {fileID: 1561694053617324, guid: 3261049b3d3e6a046a31f550c5471049, type: 3}
+  - ID: 49
+    NAME: "\u657549itachi"
+    ATTACK: 25
+    SPEED: 1.3
+    MAX_HP: 350
+    PATTERN: 1
+    SIZE: 0.7
+    INTERVAL: 0.39
+    POOL_MAX: 30
+    Prefab: {fileID: 1561694053617324, guid: 300de13ad601e274daf007db1663ff62, type: 3}
+  - ID: 50
+    NAME: "\u657550hebi"
+    ATTACK: 25
+    SPEED: 2.7
+    MAX_HP: 350
+    PATTERN: 1
+    SIZE: 0.8
+    INTERVAL: 1.08
+    POOL_MAX: 20
+    Prefab: {fileID: 6419858714409885228, guid: 05f9aeabba5473e42b82e28b63e36212,
+      type: 3}
+  - ID: 51
+    NAME: "\u657550tama"
+    ATTACK: 25
+    SPEED: 0.8
+    MAX_HP: 85
+    PATTERN: 2
+    SIZE: 0.8
+    INTERVAL: 0.8
+    POOL_MAX: 20
+    Prefab: {fileID: 1561694053617324, guid: 06a94a6287c729544b5b6c8221d72353, type: 3}
+  - ID: 52
+    NAME: "\u657552hebi"
+    ATTACK: 25
+    SPEED: 1.6
+    MAX_HP: 85
+    PATTERN: 2
+    SIZE: 0.75
+    INTERVAL: 0.75
+    POOL_MAX: 20
+    Prefab: {fileID: 5960230809141063839, guid: 094fee0b5c7a2664585993ee2f25a1a7,
+      type: 3}
+  - ID: 53
+    NAME: "\u657553umi"
+    ATTACK: 25
+    SPEED: 2
+    MAX_HP: 85
+    PATTERN: 2
+    SIZE: 0.7
+    INTERVAL: 1.01
+    POOL_MAX: 10
+    Prefab: {fileID: 1561694053617324, guid: e86abef4a2517a548a45aef1b1ff30fd, type: 3}
+  - ID: 54
+    NAME: "\u657554ga"
+    ATTACK: 25
+    SPEED: 2.4
+    MAX_HP: 75
+    PATTERN: 2
+    SIZE: 0.7
+    INTERVAL: 1.04
+    POOL_MAX: 20
+    Prefab: {fileID: 1561694053617324, guid: c3f0ac98af794f641867732baa3bddc2, type: 3}
+  - ID: 55
+    NAME: "\u657555kumo"
+    ATTACK: 25
+    SPEED: 2.8
+    MAX_HP: 75
+    PATTERN: 2
+    SIZE: 0.7
+    INTERVAL: 0.87
+    POOL_MAX: 20
+    Prefab: {fileID: 1561694053617324, guid: 05c67e2866d72984ab1f9b22a727378f, type: 3}
+  - ID: 56
+    NAME: "\u657556itachi"
+    ATTACK: 25
+    SPEED: 2.8
+    MAX_HP: 75
+    PATTERN: 2
+    SIZE: 0.7
+    INTERVAL: 0.85
+    POOL_MAX: 10
+    Prefab: {fileID: 1561694053617324, guid: 05c67e2866d72984ab1f9b22a727378f, type: 3}
+  - ID: 57
+    NAME: "\u657557kasha"
+    ATTACK: 25
+    SPEED: 3.8
+    MAX_HP: 330
+    PATTERN: 3
+    SIZE: 1.5
+    INTERVAL: 99999
+    POOL_MAX: 1
+    Prefab: {fileID: 1561694053617324, guid: 8b10d01877539ba42a5b82a3e02442b5, type: 3}
+  - ID: 58
+    NAME: "\u657558tama"
+    ATTACK: 25
+    SPEED: 2
+    MAX_HP: 40
+    PATTERN: 2
+    SIZE: 1
+    INTERVAL: 60
+    POOL_MAX: 8
+    Prefab: {fileID: 1561694053617324, guid: 7664b8f534bb157449ffc2e0a48898a6, type: 3}
+  - ID: 59
+    NAME: "\u657559hebi"
+    ATTACK: 25
+    SPEED: 2
+    MAX_HP: 40
+    PATTERN: 2
+    SIZE: 1
+    INTERVAL: 100
+    POOL_MAX: 8
+    Prefab: {fileID: 6419858714409885228, guid: 05f9aeabba5473e42b82e28b63e36212,
+      type: 3}
+  - ID: 60
+    NAME: "\u657560umi"
+    ATTACK: 25
+    SPEED: 2
+    MAX_HP: 40
+    PATTERN: 2
+    SIZE: 1
+    INTERVAL: 150
+    POOL_MAX: 8
+    Prefab: {fileID: 1561694053617324, guid: 003ed3138c0d13f42b1ca1e0b49787d5, type: 3}
+  - ID: 61
+    NAME: "\u657561ga"
+    ATTACK: 25
+    SPEED: 2
+    MAX_HP: 55
+    PATTERN: 2
+    SIZE: 1
+    INTERVAL: 100
+    POOL_MAX: 8
+    Prefab: {fileID: 1561694053617324, guid: 0e14637a5e95c384881b9628b08068e9, type: 3}
+  - ID: 62
+    NAME: "\u657562kumo"
+    ATTACK: 25
+    SPEED: 2
+    MAX_HP: 55
+    PATTERN: 2
+    SIZE: 1
+    INTERVAL: 130
+    POOL_MAX: 8
+    Prefab: {fileID: 1561694053617324, guid: 4c16b62fe55e92042be531615c675b8e, type: 3}
+  - ID: 63
+    NAME: "\u657562itachi"
+    ATTACK: 25
+    SPEED: 2
+    MAX_HP: 55
+    PATTERN: 2
+    SIZE: 1
+    INTERVAL: 180
+    POOL_MAX: 8
+    Prefab: {fileID: 1561694053617324, guid: f54cf0033b7a03e46bb553daa2491214, type: 3}

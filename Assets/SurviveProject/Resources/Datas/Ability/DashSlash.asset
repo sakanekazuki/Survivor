@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: DashSlash
+  m_EditorClassIdentifier: 
+  ID: 12
+  Name: "\u98A8\u9B54\u6CD5"
+  Name_cn: 
+  Name_en: Wind magic
+  Name_tw: 
+  basePrefab: {fileID: 591737442025207546, guid: c871cf475af712748a4a35c3cb4750f4,
+    type: 3}
+  image: {fileID: 21300000, guid: 48a49d6f79ac33f41b349e55efc9fb5a, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: -1
+  Description: "\u30C0\u30C3\u30B7\u30E5\u306E\u65B9\u5411\u306B\u753B\u9762\u3092\u8CAB\u901A\u3059\u308B\u65AC\u6483\u3092\u884C\u3046"
+  Description_en: Perform a slashing attack that pierces through the screen in the
+    direction of the dash.
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas:
+  - DamageRate: 115
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 0.3
+    Description: "\u30C0\u30C3\u30B7\u30E5\u306E\u65B9\u5411\u306B\u753B\u9762\u3092\u8CAB\u901A\u3059\u308B\u65AC\u6483\u3092\u884C\u3046"
+    Description_cn: 
+    Description_en: Perform a slashing attack that pierces through the screen in
+      the direction of the dash.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 115
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.25
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 0.3
+    Description: "\u653B\u6483\u7BC4\u56F2+25\uFF05"
+    Description_cn: 
+    Description_en: Attack range+25%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.25
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 0.3
+    Description: "\u30C0\u30E1\u30FC\u30B8+25\uFF05"
+    Description_cn: 
+    Description_en: Damage+25%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 140
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.5
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 0.3
+    Description: "\u653B\u6483\u7BC4\u56F2+25\uFF05"
+    Description_cn: 
+    Description_en: Attack range+25%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 165
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.5
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 0.3
+    Description: "\u30C0\u30E1\u30FC\u30B8+25\uFF05"
+    Description_cn: 
+    Description_en: Damage+25%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 165
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.75
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 0.3
+    Description: "\u653B\u6483\u7BC4\u56F2+25\uFF05"
+    Description_cn: 
+    Description_en: Attack range+25%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 165
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.75
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 0.3
+    Description: "\u65AC\u6483\u306E\u65B9\u5411\u306B\u6CBF\u3063\u3066\u3001\u4E0A\u4E0B\u306B2\u672C\u306E\u65AC\u6483\u3092\u8FFD\u52A0\u3059\u308B"
+    Description_cn: 
+    Description_en: Add two additional slashes vertically along the direction of
+      the attack.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 13
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas: []

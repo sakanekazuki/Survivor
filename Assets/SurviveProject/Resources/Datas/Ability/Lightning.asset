@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Lightning
+  m_EditorClassIdentifier: 
+  ID: 17
+  Name: "\u714C\u96F7\u306E\u5B9D\u73E0"
+  Name_cn: "\u714C\u96F7\u7684\u5B9D\u73E0"
+  Name_en: Pearl of Glimmering Lightning
+  Name_tw: "\u714C\u96F7\u7684\u5BF6\u73E0"
+  basePrefab: {fileID: 4267511456064116058, guid: 3ede52adcbdf403489822ad159e47444,
+    type: 3}
+  image: {fileID: 21300000, guid: 08f712e88d2fc9542aa171df51002c80, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: -1
+  Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u30673\u56DE\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u5EA6\u3001\n\u30E9\u30F3\u30C0\u30E0\u306B3\u56DE\u9023\u9396\u3059\u308B\u7A32\u59BB\u304C\u767A\u751F\u3059\u308B"
+  Description_en: Every 3 hits with the main weapon trigger a random 3-hit chain
+    lightning attack.
+  Description_tw: "\u4E3B\u6B66\u5668\u64CA\u4E2D3\u6B21\u5F8C\uFF0C\u89F8\u767C\u96A8\u6A5F3\u6B21\u9583\u96FB\u93C8\u5F0F\u653B\u64CA\u3002"
+  Description_cn: "\u4E3B\u6B66\u5668\u51FB\u4E2D3\u6B21\u540E\uFF0C\u89E6\u53D1\u968F\u673A3\u6B21\u95EA\u7535\u94FE\u5F0F\u653B\u51FB\u3002"
+  WeaponLevelDatas:
+  - DamageRate: 80
+    Interval: 3
+    Speed: 400
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3
+    Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u30673\u56DE\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u5EA6\u3001
+      \u30E9\u30F3\u30C0\u30E0\u306B3\u56DE\u9023\u9396\u3059\u308B\u7A32\u59BB\u304C\u767A\u751F\u3059\u308B"
+    Description_cn: "\u4E3B\u6B66\u5668\u51FB\u4E2D3\u6B21\u540E\uFF0C\u89E6\u53D1\u968F\u673A3\u6B21\u95EA\u7535\u94FE\u5F0F\u653B\u51FB\u3002"
+    Description_en: Every 3 hits with the main weapon trigger a random 3-hit chain
+      lightning attack.
+    Description_tw: "\u4E3B\u6B66\u5668\u64CA\u4E2D3\u6B21\u5F8C\uFF0C\u89F8\u767C\u96A8\u6A5F3\u6B21\u9583\u96FB\u93C8\u5F0F\u653B\u64CA\u3002"
+    Penetration: 4
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 1
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 80
+    Interval: 3
+    Speed: 400
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3
+    Description: "\u7A32\u59BB\u306E\u9023\u9396\u56DE\u6570+1"
+    Description_cn: "\u95EA\u7535\u94FE\u6B21\u6570+1"
+    Description_en: Chain lightning attack+1
+    Description_tw: "\u9583\u96FB\u93C8\u6B21\u6578+1"
+    Penetration: 5
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 1
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 90
+    Interval: 3
+    Speed: 400
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3
+    Description: "\u30C0\u30E1\u30FC\u30B8+10\uFF05\u3001\n\u7A32\u59BB\u306E\u9023\u9396\u56DE\u6570+1"
+    Description_cn: "\u4F24\u5BB3+10%\n\u95EA\u7535\u94FE\u6B21\u6570+1"
+    Description_en: 'Damage+10%
+
+      Chain lightning attack+1'
+    Description_tw: "\u50B7\u5BB3+10%\n\u9583\u96FB\u93C8\u6B21\u6578+1"
+    Penetration: 6
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 1
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 90
+    Interval: 3
+    Speed: 400
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3
+    Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-10\uFF05"
+    Description_cn: "\u4E3B\u6B66\u5668\u7684\u4F7F\u7528\u95F4\u9694-10%"
+    Description_en: Main weapon CD -10%
+    Description_tw: "\u4E3B\u6B66\u5668\u7684\u4F7F\u7528\u9593\u9694-10%"
+    Penetration: 6
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 1
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 90
+    Interval: 3
+    Speed: 400
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3
+    Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-10\uFF05"
+    Description_cn: "\u4E3B\u6B66\u5668\u7684\u4F7F\u7528\u95F4\u9694-10%"
+    Description_en: Main weapon CD -10%
+    Description_tw: "\u4E3B\u6B66\u5668\u7684\u4F7F\u7528\u9593\u9694-10%"
+    Penetration: 6
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 1
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 100
+    Interval: 3
+    Speed: 400
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 3
+    Description: "\u30C0\u30E1\u30FC\u30B8+10\uFF05\u3000\n\u7A32\u59BB\u306E\u9023\u9396\u56DE\u6570+1"
+    Description_cn: "\u4F24\u5BB3+10%\n\u95EA\u7535\u94FE\u6B21\u6570+1"
+    Description_en: 'Damage+10%
+
+      Chain lightning attack+1'
+    Description_tw: "\u50B7\u5BB3+10%\n\u9583\u96FB\u93C8\u6B21\u6578+1"
+    Penetration: 7
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 1
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 100
+    Interval: 3
+    Speed: 400
+    AreaStr: 
+    Size: 1
+    Num: 2
+    Type: 4
+    Knockback: 0
+    Time: 3
+    Description: "\u7A32\u59BB\u306E\u767A\u751F\u56DE\u6570+1\u3001\n\u30E1\u30A4\u30F3\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-10\uFF05"
+    Description_cn: "\u95EA\u7535\u94FE\u6B21\u6570+1\n\u4E3B\u6B66\u5668\u7684\u4F7F\u7528\u95F4\u9694-10%"
+    Description_en: 'Chain lightning attack+1
+
+      Main weapon CD -10%'
+    Description_tw: "\u9583\u96FB\u93C8\u6B21\u6578+1\n\u4E3B\u6B66\u5668\u7684\u4F7F\u7528\u9593\u9694-10%"
+    Penetration: 7
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 1
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas:
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas: []
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas: []
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas: []
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.1
+      exItemStatus: 0
+      StatusType: 17
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.2
+      exItemStatus: 0
+      StatusType: 17
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas: []
+  - Description: 
+    Description_en: 
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.3
+      exItemStatus: 0
+      StatusType: 17

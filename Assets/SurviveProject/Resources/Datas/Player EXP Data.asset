@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9200116b4c14e0246815445a256b5c4c, type: 3}
+  m_Name: Player EXP Data
+  m_EditorClassIdentifier: 
+  data:
+  - level: 1
+    exp: 10
+  - level: 2
+    exp: 12
+  - level: 3
+    exp: 15
+  - level: 4
+    exp: 17
+  - level: 5
+    exp: 17
+  - level: 6
+    exp: 20
+  - level: 7
+    exp: 25
+  - level: 8
+    exp: 25
+  - level: 9
+    exp: 30
+  - level: 10
+    exp: 30
+  - level: 11
+    exp: 35
+  - level: 12
+    exp: 35
+  - level: 13
+    exp: 40
+  - level: 14
+    exp: 40
+  - level: 15
+    exp: 50
+  - level: 16
+    exp: 50
+  - level: 17
+    exp: 60
+  - level: 18
+    exp: 70
+  - level: 19
+    exp: 80
+  - level: 20
+    exp: 90
+  - level: 21
+    exp: 100
+  - level: 22
+    exp: 100
+  - level: 23
+    exp: 110
+  - level: 24
+    exp: 110
+  - level: 25
+    exp: 130
+  - level: 26
+    exp: 150
+  - level: 27
+    exp: 180
+  - level: 28
+    exp: 200
+  - level: 29
+    exp: 220
+  - level: 30
+    exp: 250
+  - level: 31
+    exp: 250
+  - level: 32
+    exp: 250
+  - level: 33
+    exp: 270
+  - level: 34
+    exp: 270
+  - level: 35
+    exp: 270
+  - level: 36
+    exp: 300
+  - level: 37
+    exp: 300
+  - level: 38
+    exp: 330
+  - level: 39
+    exp: 330
+  - level: 40
+    exp: 350
+  - level: 41
+    exp: 350
+  - level: 42
+    exp: 360
+  - level: 43
+    exp: 360
+  - level: 44
+    exp: 380
+  - level: 45
+    exp: 380
+  - level: 46
+    exp: 400
+  - level: 47
+    exp: 400
+  - level: 48
+    exp: 450
+  - level: 49
+    exp: 450
+  - level: 50
+    exp: 450
+  - level: 51
+    exp: 500
+  - level: 52
+    exp: 500
+  - level: 53
+    exp: 500
+  - level: 54
+    exp: 550
+  - level: 55
+    exp: 550
+  - level: 56
+    exp: 550
+  - level: 57
+    exp: 600
+  - level: 58
+    exp: 600
+  - level: 59
+    exp: 600
+  - level: 60
+    exp: 800
+  - level: 61
+    exp: 800
+  - level: 62
+    exp: 900
+  - level: 63
+    exp: 900
+  - level: 64
+    exp: 1000
+  - level: 65
+    exp: 1100
+  - level: 66
+    exp: 1200
+  - level: 67
+    exp: 1300
+  - level: 68
+    exp: 1400
+  - level: 69
+    exp: 1500
+  - level: 70
+    exp: 1700
+  - level: 71
+    exp: 1900
+  - level: 72
+    exp: 2100
+  - level: 73
+    exp: 2300
+  - level: 74
+    exp: 2500
+  - level: 75
+    exp: 3000
+  - level: 76
+    exp: 3200
+  - level: 77
+    exp: 3300
+  - level: 78
+    exp: 3400
+  - level: 79
+    exp: 3500
+  - level: 80
+    exp: 4000
+  - level: 81
+    exp: 4100
+  - level: 82
+    exp: 4200
+  - level: 83
+    exp: 4300
+  - level: 84
+    exp: 4400
+  - level: 85
+    exp: 4500
+  - level: 86
+    exp: 4600
+  - level: 87
+    exp: 4700
+  - level: 88
+    exp: 4800
+  - level: 89
+    exp: 4900
+  - level: 90
+    exp: 6000

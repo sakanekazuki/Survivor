@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8694213528581384274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8694213528581384273}
+  - component: {fileID: 8694213528581384270}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8694213528581384273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8694213528581384274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -144.25963, y: 26.774057, z: 99.63167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8694213528581384270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8694213528581384274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fdc855b18906a449b67314724929f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutomaticallyUnparentOnAwake: 1
+  TargetFrameRate: 60
+  MaximumLives: 0
+  CurrentLives: 0
+  GameOverScene: 
+  Points: 0
+  PauseGameWhenInventoryOpens: 1
+  characterDatas: {fileID: 11400000, guid: 5209d326dd8dc9e468ec185d7672db91, type: 2}
+  currentData:
+    ID: 0
+    NAME: 
+    ATTACK: 0
+    SPEED: 0
+    MAX_HP: 0
+    DASH_NUM: 0
+    DASH_INTERVAL: 0
+    DASH_POWER: 0
+    CRITICAL: 0
+    COINCOST: 0
+    isLocked: 0
+    localizedNameKey: 
+    localizedUnlockNameKey: 
+    localizedWeaponIntroKey: 
+    charaImage: {fileID: 0}
+    charaLockImage: {fileID: 0}
+    charaWeapon: {fileID: 0}
+    charaSD: {fileID: 0}
+    Prefab: {fileID: 0}
+    PickUP: 0
+    WeaponInterval: 0
+    SkillInterval: 0
+    Luck: 0
+    Regeneration: 0
+    EXPUp: 0
+    GoldUp: 0
+    AREA: 0
+    ThrowNum: 0
+    KnockBack: 0
+    Shield: 0
+    Reroll: 0
+    WeaponNum: 0
+    ItemNum: 0
+    AttributeStatusLevel: 
+  stageDatas: {fileID: 11400000, guid: bb8d1466ecb3d894dbda485ccedce41e, type: 2}
+  currentCharacterID: 1
+  currentStageID: 1
+  TestLimitTime: 99999
+  LimitTime: 1200
+  TestInitialTime: 0
+  abilitySelectSystem:
+    abilityDatas: []
+    UseableDatas: []
+  abilityDatas:
+  - {fileID: 11400000, guid: 1c667c4fddfe1d743b250ea8f5e1e31a, type: 2}
+  - {fileID: 11400000, guid: f0d2bc36e370a1045a6ef72bc9f09705, type: 2}
+  - {fileID: 11400000, guid: 78c29bae6a68e464f8f73edb88ec99fa, type: 2}
+  - {fileID: 11400000, guid: 12dfb45cab4993748aafac3f76ec3b7d, type: 2}
+  - {fileID: 11400000, guid: ef9c3fa08b7f62d4eaf5a2798aff0f6f, type: 2}
+  - {fileID: 11400000, guid: 837fe22d979eb5e4b8c1eb58815fcfc3, type: 2}
+  - {fileID: 11400000, guid: a8460b6a0975e8f4f81e609e8f5e30e9, type: 2}
+  - {fileID: 11400000, guid: 2529b401632c96242b8eda2625c73d7f, type: 2}
+  - {fileID: 11400000, guid: 0a4ee415239788a4482aabeaabb035ad, type: 2}
+  - {fileID: 11400000, guid: c25898d13877a36408fd8ed8a800eb4b, type: 2}
+  - {fileID: 11400000, guid: 18e690b6eb55e404a8c91e2233da5b4c, type: 2}
+  - {fileID: 11400000, guid: 56ab1e95ab191b54dab60e41160c71a7, type: 2}
+  - {fileID: 11400000, guid: a95dbe8754f91584c9a6eb897a30a4af, type: 2}
+  - {fileID: 11400000, guid: 023d4e513b90e254aa35b769cc2aeafe, type: 2}
+  - {fileID: 11400000, guid: 9ba734c219b53bf4d95a47be74580757, type: 2}
+  - {fileID: 11400000, guid: ede1f2ffa3e8b77478e4ad6f254cf77c, type: 2}
+  - {fileID: 11400000, guid: 443a7f0caa81e9543ad7359b62e0df16, type: 2}
+  - {fileID: 11400000, guid: 5c696a7042cf7f94990f2c061bc4baae, type: 2}
+  - {fileID: 11400000, guid: 013f5366829f8654aa642da19da7dc20, type: 2}
+  - {fileID: 11400000, guid: 7b3fad58076a3ce4186ac3a986b60f50, type: 2}
+  - {fileID: 11400000, guid: e8889265c0a00c4438d0882a0df9ec87, type: 2}
+  - {fileID: 11400000, guid: c4193c1ac2402974aa6febfeb2e9b016, type: 2}
+  - {fileID: 11400000, guid: e40d08a506293ed4c9696113a9ba111b, type: 2}
+  - {fileID: 11400000, guid: b4463463d8eef354abe2f83377d725cd, type: 2}
+  - {fileID: 11400000, guid: 0f0cafbc2536f424289bf0feb36e4fc5, type: 2}
+  - {fileID: 11400000, guid: 943924e87bedbe0418067f8c26c240aa, type: 2}
+  - {fileID: 11400000, guid: b1ff76e111fb813429b5afd5a116267f, type: 2}
+  - {fileID: 11400000, guid: d86b928e356016c428c71879702b07a7, type: 2}
+  - {fileID: 11400000, guid: 690b0ffd6514c434292e72240a176582, type: 2}
+  - {fileID: 11400000, guid: 2d6a638c6ea4f3545a746b07d7c52a9a, type: 2}
+  - {fileID: 11400000, guid: 77c834b2d4495654d86862112855e80a, type: 2}
+  - {fileID: 11400000, guid: d548125cd23c9db43852e7544c1e7355, type: 2}
+  - {fileID: 11400000, guid: cf9cb385c2677ae44983dbbe673d66d1, type: 2}
+  HealAbility: {fileID: 11400000, guid: c67321db3252bee44be1b44fe4900d9f, type: 2}
+  CoinAbility: {fileID: 11400000, guid: 3bb821ef371fcc44f9227483655d0df5, type: 2}
+  BoxCoinAbility: {fileID: 11400000, guid: 19e9bd279b9afe14285f433e1ec9ed33, type: 2}
+  playerEXPData: {fileID: 11400000, guid: 0a34c4b7e82dcf845aee826630108cfe, type: 2}
+  playerLevelGainPointData: {fileID: 11400000, guid: 469dfcea23faf68478e1c37e585d5ce8,
+    type: 2}
+  playerAttributeNeedPointData: {fileID: 11400000, guid: a279a5bf8125b744ea9157f92b001987,
+    type: 2}
+  abilityRarityData: {fileID: 11400000, guid: 269a806be7618c346a9ba5b33ef30be7, type: 2}
+  shopItemDatas: {fileID: 11400000, guid: 24d8108d03fbc3e4cb210cce7ac15100, type: 2}
+  boxRarityData: {fileID: 11400000, guid: 808dee8f7ac93ab41a0c8e5d643cbbeb, type: 2}
+  throwAbilityListData: {fileID: 11400000, guid: 78f1d29824f94d744b5de17c05408604,
+    type: 2}
+  ShieldEffect: {fileID: 5374341092477137003, guid: f88aa65267408b841aa9ce0389bcaa53,
+    type: 3}
+  ClearSingltoneSingleton: 0
+  Playing: 0
+  muteki: 1

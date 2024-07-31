@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Fuma
+  m_EditorClassIdentifier: 
+  ID: 5
+  Name: "\u938C"
+  Name_cn: 
+  Name_en: Scythe
+  Name_tw: 
+  basePrefab: {fileID: 8715538825491426084, guid: 2d3b1538db3ade14198b3b20473dd535,
+    type: 3}
+  image: {fileID: 21300000, guid: 5a80ff6f0092c47488aaa292f62fceef, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: -1
+  Description: "\u79FB\u52D5\u3059\u308B\u30C0\u30E1\u30FC\u30B8\u30BE\u30FC\u30F3\u3092\u5C55\u958B\u3059\u308B"
+  Description_en: Deploy a mobile damage zone.
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas:
+  - DamageRate: 100
+    Interval: 4
+    Speed: 30
+    AreaStr: "\u4E2D"
+    Size: 0.6
+    Num: 1
+    Type: 2
+    Knockback: 0
+    Time: 5
+    Description: "\u79FB\u52D5\u3059\u308B\u30C0\u30E1\u30FC\u30B8\u30BE\u30FC\u30F3\u3092\u5C55\u958B\u3059\u308B"
+    Description_cn: 
+    Description_en: Deploy a mobile damage zone.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 4
+    Speed: 30
+    AreaStr: "\u4E2D"
+    Size: 0.6
+    Num: 2
+    Type: 2
+    Knockback: 0
+    Time: 5
+    Description: "\u938C\u306E\u6570+1"
+    Description_cn: 
+    Description_en: Number of Scythe+1
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 100
+    Interval: 4
+    Speed: 30
+    AreaStr: "\u4E2D"
+    Size: 0.6
+    Num: 2
+    Type: 2
+    Knockback: 0
+    Time: 5.4
+    Description: "\u7D99\u7D9A\u6642\u9593+0.4\u79D2"
+    Description_cn: 
+    Description_en: Duration +0.4 sec.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 110
+    Interval: 4
+    Speed: 30
+    AreaStr: "\u4E2D"
+    Size: 0.8
+    Num: 2
+    Type: 2
+    Knockback: 0
+    Time: 5.4
+    Description: "\u653B\u6483\u7BC4\u56F2+20\uFF05\u3000\n\u30C0\u30E1\u30FC\u30B8+10\uFF05"
+    Description_cn: 
+    Description_en: "Attack range+20%                                        \nDamage+10%"
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 4
+    Speed: 30
+    AreaStr: "\u4E2D"
+    Size: 0.8
+    Num: 2
+    Type: 2
+    Knockback: 0
+    Time: 5.8
+    Description: "\u7D99\u7D9A\u6642\u9593+0.4\u79D2\u3000\n\u30C0\u30E1\u30FC\u30B8+10\uFF05"
+    Description_cn: 
+    Description_en: 'Duration +0.4 sec.
+
+      Damage+10%'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 4
+    Speed: 30
+    AreaStr: "\u4E2D"
+    Size: 1
+    Num: 3
+    Type: 2
+    Knockback: 0
+    Time: 5.8
+    Description: "\u938C\u306E\u6570+1\n\u653B\u6483\u7BC4\u56F2+20\uFF05"
+    Description_cn: 
+    Description_en: 'Number of Scythe+1
+
+      Attack range+20%              '
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 4
+    Speed: 30
+    AreaStr: "\u4E2D"
+    Size: 1
+    Num: 4
+    Type: 2
+    Knockback: 0
+    Time: 5.8
+    Description: "\u938C\u306E\u6570+1\u3000\n\u79FB\u52D5\u7D4C\u8DEF\u4E0A\u706B\u3092\u6B8B\u3059\u3001\u8E0F\u3093\u3060\u6575\u306B2\u79D2\u9593\u306B\u653B\u6483\u529B70\uFF05\u306E\u7D99\u7D9A\u30C0\u30E1\u30FC\u30B8\u4E0E\u3048\u308B"
+    Description_cn: 
+    Description_en: 'Number of Scythe+1
+
+      Leaves fire on the movement path,
+      dealing continuous damage to enemies stepped on for 2 sec.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 3
+      exStatus:
+        DamageRate: 70
+        Interval: 0.5
+        Speed: 0
+        AreaStr: 
+        Size: 1
+        Num: 1
+        Type: 2
+        Knockback: 0
+        Time: 2
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas: []

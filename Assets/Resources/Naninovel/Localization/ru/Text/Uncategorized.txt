@@ -1,0 +1,3 @@
+; English <en> to Русский <ru> localization document for `Uncategorized` managed text document
+
+StartDemo: НАЧАТЬ ДЕМО

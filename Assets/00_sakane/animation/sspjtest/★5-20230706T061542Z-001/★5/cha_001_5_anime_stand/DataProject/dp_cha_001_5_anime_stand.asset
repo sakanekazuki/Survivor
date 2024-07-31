@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1e551922b81ce40b6579726b70c93f, type: 3}
+  m_Name: dp_cha_001_5_anime_stand
+  m_EditorClassIdentifier: 
+  Version: 65536
+  Name: cha_001_5_anime_stand
+  DataCellMap: {fileID: 11400000, guid: 24cc8586858e94449a2fdd10fbabac3a, type: 2}
+  DataAnimation:
+  - {fileID: 11400000, guid: 19b258bd2896a0345a5e21cc729ae7f5, type: 2}
+  - {fileID: 11400000, guid: 80039dfbe8064f941bcea6c1597fb442, type: 2}
+  - {fileID: 11400000, guid: 8004ae8b67663db49b3695e6f5204d45, type: 2}
+  DataEffect: []
+  DataSequence: []
+  PrefabAnimation:
+  - {fileID: 1346658278380210847, guid: 6fa5e713c2fb2d4429aa1400a0342d0b, type: 3}
+  - {fileID: 3226836342151366827, guid: 0113605589f00054285ba90d4aa79cd1, type: 3}
+  - {fileID: 5836852877312428772, guid: 7e0ea276e7dc5ed4396a0b6e9c0c3b85, type: 3}
+  PrefabEffect: []
+  TableTexture:
+  - {fileID: 2800000, guid: 9bb681a28289947449a6c82261cf68f4, type: 3}
+  - {fileID: 2800000, guid: e2032a7a4cabab645bbcefc75f05ca49, type: 3}
+  - {fileID: 2800000, guid: 73d7c949733122f42a31e4540ada0c12, type: 3}

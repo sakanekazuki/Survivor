@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Tengu
+  m_EditorClassIdentifier: 
+  ID: 105
+  Name: "\u30DE\u30B9\u30AB\u30EC\u30FC\u30C9\u30DE\u30B9\u30AF"
+  Name_cn: 
+  Name_en: Mascalade mask
+  Name_tw: 
+  basePrefab: {fileID: 0}
+  image: {fileID: 21300000, guid: ffa39e77cea9f3d4fb4a2fb19da7dba7, type: 3}
+  abilityDataType: 2
+  TargetCharacterID: -1
+  Description: "\u30C0\u30C3\u30B7\u30E5\u56DE\u5FA9\u901F\u5EA6+4\uFF05"
+  Description_en: Dash Recovery+4%
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas: []
+  ItemLevelDatas:
+  - Description: "\u30C0\u30C3\u30B7\u30E5\u56DE\u5FA9\u901F\u5EA6+4\uFF05"
+    Description_en: Dash Recovery+4%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: -0.04
+      exItemStatus: 0
+      StatusType: 10
+  - Description: "\u30C0\u30C3\u30B7\u30E5\u56DE\u5FA9\u901F\u5EA6+4\uFF05"
+    Description_en: Dash Recovery+4%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: -0.08
+      exItemStatus: 0
+      StatusType: 10
+  - Description: "\u30C0\u30C3\u30B7\u30E5\u56DE\u5FA9\u901F\u5EA6+4\uFF05"
+    Description_en: Dash Recovery+4%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: -0.12
+      exItemStatus: 0
+      StatusType: 10
+  - Description: "\u30C0\u30C3\u30B7\u30E5\u56DE\u5FA9\u901F\u5EA6+4\uFF05"
+    Description_en: Dash Recovery+4%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: -0.16
+      exItemStatus: 0
+      StatusType: 10
+  - Description: "\u30C0\u30C3\u30B7\u30E5\u56DE\u5FA9\u901F\u5EA6+4\uFF05"
+    Description_en: Dash Recovery+4%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: -0.2
+      exItemStatus: 0
+      StatusType: 10
+  - Description: "\u30C0\u30C3\u30B7\u30E5\u56DE\u5FA9\u901F\u5EA6+4\uFF05"
+    Description_en: Dash Recovery+4%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: -0.24
+      exItemStatus: 0
+      StatusType: 10
+  - Description: "\u30C0\u30C3\u30B7\u30E5\u56DE\u5FA9\u901F\u5EA6+4\uFF05"
+    Description_en: Dash Recovery+4%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: -0.28
+      exItemStatus: 0
+      StatusType: 10

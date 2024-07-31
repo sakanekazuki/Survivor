@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec85213151932354b98e95a62dec67fb, type: 3}
+  m_Name: TESTGroup
+  m_EditorClassIdentifier: 
+  datas:
+  - startTime: 0
+    endTime: -1
+    max: 10
+    interval: 9999999
+    patternObj: {fileID: 3577158295292847891, guid: 5c98050664ce45b49870bd14633a6800,
+      type: 3}
+    enemyIDs: 01000000

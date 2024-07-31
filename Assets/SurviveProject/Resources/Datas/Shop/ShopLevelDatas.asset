@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9acebf529878b8045a527d1f4c797d5e, type: 3}
+  m_Name: ShopLevelDatas
+  m_EditorClassIdentifier: 
+  data:
+  - ID: 1
+    levelUpValue: 5
+    localizedKey: MaxHP
+    levelDatas:
+    - level: 1
+      price: 120
+    - level: 2
+      price: 360
+    - level: 3
+      price: 880
+    - level: 4
+      price: 1440
+    - level: 5
+      price: 3240
+    - level: 6
+      price: 4880
+    - level: 7
+      price: 6300
+    - level: 8
+      price: 7200
+    - level: 9
+      price: 9600
+  - ID: 2
+    levelUpValue: 3
+    localizedKey: Damage
+    levelDatas:
+    - level: 1
+      price: 200
+    - level: 2
+      price: 400
+    - level: 3
+      price: 960
+    - level: 4
+      price: 1550
+    - level: 5
+      price: 3420
+    - level: 6
+      price: 5000
+    - level: 7
+      price: 6670
+    - level: 8
+      price: 8600
+    - level: 9
+      price: 10500
+  - ID: 3
+    levelUpValue: 3
+    localizedKey: MoveSpeed
+    levelDatas:
+    - level: 1
+      price: 80
+    - level: 2
+      price: 140
+    - level: 3
+      price: 330
+    - level: 4
+      price: 780
+    - level: 5
+      price: 1180
+    - level: 6
+      price: 2840
+    - level: 7
+      price: 4530
+    - level: 8
+      price: 5800
+    - level: 9
+      price: 7700
+  - ID: 4
+    levelUpValue: 4
+    localizedKey: Critical
+    levelDatas:
+    - level: 1
+      price: 660
+    - level: 2
+      price: 1860
+    - level: 3
+      price: 4250
+    - level: 4
+      price: 7360
+    - level: 5
+      price: 10500
+  - ID: 5
+    levelUpValue: 3
+    localizedKey: FlySpeed
+    levelDatas:
+    - level: 1
+      price: 120
+    - level: 2
+      price: 360
+    - level: 3
+      price: 880
+    - level: 4
+      price: 1440
+    - level: 5
+      price: 3240
+    - level: 6
+      price: 4880
+    - level: 7
+      price: 6300
+    - level: 8
+      price: 7200
+    - level: 9
+      price: 9600
+  - ID: 6
+    levelUpValue: 3
+    localizedKey: AttackRange
+    levelDatas:
+    - level: 1
+      price: 120
+    - level: 2
+      price: 360
+    - level: 3
+      price: 880
+    - level: 4
+      price: 1440
+    - level: 5
+      price: 3240
+    - level: 6
+      price: 4880
+    - level: 7
+      price: 6300
+    - level: 8
+      price: 7200
+    - level: 9
+      price: 9600
+  - ID: 7
+    levelUpValue: 4
+    localizedKey: LastTime
+    levelDatas:
+    - level: 1
+      price: 120
+    - level: 2
+      price: 360
+    - level: 3
+      price: 880
+    - level: 4
+      price: 1440
+    - level: 5
+      price: 3240
+    - level: 6
+      price: 4880
+    - level: 7
+      price: 6300
+    - level: 8
+      price: 7200
+    - level: 9
+      price: 9600
+  - ID: 8
+    levelUpValue: 4
+    localizedKey: PickRange
+    levelDatas:
+    - level: 1
+      price: 80
+    - level: 2
+      price: 140
+    - level: 3
+      price: 330
+    - level: 4
+      price: 780
+    - level: 5
+      price: 1180
+    - level: 6
+      price: 2840
+    - level: 7
+      price: 4530
+    - level: 8
+      price: 5800
+    - level: 9
+      price: 7700
+  - ID: 9
+    levelUpValue: 3
+    localizedKey: AttackInterval
+    levelDatas:
+    - level: 1
+      price: 200
+    - level: 2
+      price: 400
+    - level: 3
+      price: 960
+    - level: 4
+      price: 1550
+    - level: 5
+      price: 3420
+    - level: 6
+      price: 5000
+    - level: 7
+      price: 6670
+    - level: 8
+      price: 8600
+    - level: 9
+      price: 10500
+  - ID: 10
+    levelUpValue: 0.1
+    localizedKey: HPRecovery
+    levelDatas:
+    - level: 1
+      price: 80
+    - level: 2
+      price: 140
+    - level: 3
+      price: 330
+    - level: 4
+      price: 780
+    - level: 5
+      price: 1180
+    - level: 6
+      price: 2840
+    - level: 7
+      price: 4530
+    - level: 8
+      price: 5800
+    - level: 9
+      price: 7700
+  - ID: 11
+    levelUpValue: 1
+    localizedKey: DamageCut
+    levelDatas:
+    - level: 1
+      price: 660
+    - level: 2
+      price: 1860
+    - level: 3
+      price: 4250
+    - level: 4
+      price: 7360
+    - level: 5
+      price: 10500
+  - ID: 12
+    levelUpValue: 8
+    localizedKey: GainExp
+    levelDatas:
+    - level: 1
+      price: 660
+    - level: 2
+      price: 1860
+    - level: 3
+      price: 4250
+    - level: 4
+      price: 7360
+    - level: 5
+      price: 10500
+  - ID: 13
+    levelUpValue: 8
+    localizedKey: GainCoin
+    levelDatas:
+    - level: 1
+      price: 660
+    - level: 2
+      price: 1860
+    - level: 3
+      price: 4250
+    - level: 4
+      price: 7360
+    - level: 5
+      price: 10500
+  - ID: 14
+    levelUpValue: 1
+    localizedKey: Reroll
+    levelDatas:
+    - level: 1
+      price: 2400
+    - level: 2
+      price: 3600
+    - level: 3
+      price: 5000
+    - level: 4
+      price: 7600
+    - level: 5
+      price: 12300
+  - ID: 15
+    levelUpValue: 1
+    localizedKey: WeaponLimit
+    levelDatas:
+    - level: 1
+      price: 15000
+    - level: 2
+      price: 45000
+  - ID: 16
+    levelUpValue: 1
+    localizedKey: RelicLimit
+    levelDatas:
+    - level: 1
+      price: 15000
+    - level: 2
+      price: 45000

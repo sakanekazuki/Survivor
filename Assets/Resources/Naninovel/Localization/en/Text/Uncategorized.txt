@@ -1,0 +1,3 @@
+; Japanese <ja> to English <en> localization document for `Uncategorized` managed text document
+
+StartDemo: START DEMO

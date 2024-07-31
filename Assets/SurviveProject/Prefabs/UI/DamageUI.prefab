@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5818580278499485081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248704456838892814}
+  - component: {fileID: 5014239977095240560}
+  m_Layer: 13
+  m_Name: DamageUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &248704456838892814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818580278499485081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5014239977095240560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818580278499485081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1222ddfa08c234e8297b5f0ea14f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  SpriteList:
+  - {fileID: 21300000, guid: f4048bd10ae054f4cb78a482d2bb97e6, type: 3}
+  - {fileID: 21300000, guid: 5079d9f865445dd45ad9f2f4a3ecbd20, type: 3}
+  - {fileID: 21300000, guid: 7607853481fc2f14b84b26d66682a270, type: 3}
+  - {fileID: 21300000, guid: 23f7a5921d4b18d4f805f9c8f00f706f, type: 3}
+  - {fileID: 21300000, guid: d415d881afeecd14d9304d2276b5a70f, type: 3}
+  - {fileID: 21300000, guid: 78fdf9907f6d46149a3694f557f3d27d, type: 3}
+  - {fileID: 21300000, guid: 4bc1d032922e32f498e6c59b8e54d695, type: 3}
+  - {fileID: 21300000, guid: fdc87d1be8ebbb9438df3d304d338655, type: 3}
+  - {fileID: 21300000, guid: da97221ea24928545b9e014430f2bb87, type: 3}
+  - {fileID: 21300000, guid: 4a06b666b9a00724ba13dca4742c6216, type: 3}
+  CriticalSpriteList:
+  - {fileID: 21300000, guid: b54af399250bf0347a8dbe8997e7e34e, type: 3}
+  - {fileID: 21300000, guid: f57005e5b875fd44d806ce9afcccba10, type: 3}
+  - {fileID: 21300000, guid: 51cb1557e1c37b74d900e4a0ee0af6ea, type: 3}
+  - {fileID: 21300000, guid: 0217af7557fa7b041b3e7d6951d2f621, type: 3}
+  - {fileID: 21300000, guid: 7fd7de35820c9d14b8a94c93e70f83a5, type: 3}
+  - {fileID: 21300000, guid: 18740d3f2c9ecfd4ca1be196ba0fcf16, type: 3}
+  - {fileID: 21300000, guid: a65896c70042bc242a30b024ee7c4d46, type: 3}
+  - {fileID: 21300000, guid: 8108001dec2331440bb8f150ed6ae090, type: 3}
+  - {fileID: 21300000, guid: a56fd82f9c1e4df42985ef516594948d, type: 3}
+  - {fileID: 21300000, guid: 9bca5bb9bef38494190bd403f90e8894, type: 3}

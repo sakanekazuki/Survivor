@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StateConfiguration
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: bb4a73676509e3e448cf1bc5c83f9963,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SaveFolderName
+    value: Saves
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: DefaultSettingsSlotId
+    value: Settings
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: DefaultGlobalSlotId
+    value: GlobalSave
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SaveSlotMask
+    value: GameSave{0:000}
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuickSaveSlotMask
+    value: GameQuickSave{0:000}
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SaveSlotLimit
+    value: 99
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuickSaveSlotLimit
+    value: 18
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BinarySaveFiles
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LoadStartDelay
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ResetOnGoto
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: EnableStateRollback
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: StateRollbackSteps
+    value: 1024
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SavedRollbackSteps
+    value: 128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: GameStateHandler
+    value: Naninovel.PlayerPrefsGameStateSlotManager, Elringus.Naninovel.Runtime,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: GlobalStateHandler
+    value: Naninovel.PlayerPrefsGlobalStateSlotManager, Elringus.Naninovel.Runtime,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SettingsStateHandler
+    value: Naninovel.PlayerPrefsSettingsSlotManager, Elringus.Naninovel.Runtime,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

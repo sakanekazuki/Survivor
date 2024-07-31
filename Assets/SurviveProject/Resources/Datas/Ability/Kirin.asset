@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Kirin
+  m_EditorClassIdentifier: 
+  ID: 18
+  Name: "\u8F1D\u71D0\u306E\u5B9D\u73E0"
+  Name_cn: "\u8F89\u71D0\u7684\u5B9D\u73E0"
+  Name_en: Pearl of Bright Phosphorus
+  Name_tw: "\u8F1D\u71D0\u7684\u5BF6\u73E0"
+  basePrefab: {fileID: 6921827945979753638, guid: f8bfbe94da8113149bf875acf5da9a64,
+    type: 3}
+  image: {fileID: 21300000, guid: 7d9dea74833c42841913334b6f96b99c, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: -1
+  Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u30675\u56DE\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u5EA6\u3001\n\u30E9\u30F3\u30C0\u30E0\u306A\u65752\u4F53\u306B\u5BFE\u3057\u7A7A\u304B\u3089\u5149\u306E\u5203\u304C\u843D\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B"
+  Description_en: When the main weapon deals damage 5 times, it will randomly strike
+    two enemies from the sky with blades of light.
+  Description_tw: "\u4E3B\u6B66\u5668\u64CA\u4E2D5\u6B21\u5F8C\uFF0C\u5C07\u5C0D\u96A8\u6A5F2\u500B\u6575\u4EBA\u91CB\u653E\u5149\u4E4B\u5203\u9020\u6210\u50B7\u5BB3\u3002"
+  Description_cn: "\u4E3B\u6B66\u5668\u51FB\u4E2D5\u6B21\u540E\uFF0C\u5C06\u5BF9\u968F\u673A2\u4E2A\u654C\u4EBA\u91CA\u653E\u5149\u4E4B\u5203\u9020\u6210\u4F24\u5BB3\u3002"
+  WeaponLevelDatas:
+  - DamageRate: 125
+    Interval: 5
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 2
+    Type: 4
+    Knockback: 0
+    Time: 0.5
+    Description: "\u30E1\u30A4\u30F3\u6B66\u5668\u30675\u56DE\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u5EA6\u3001
+      \u30E9\u30F3\u30C0\u30E0\u306A\u65752\u4F53\u306B\u5BFE\u3057\u7A7A\u304B\u3089\u5149\u306E\u5203\u304C\u843D\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B"
+    Description_cn: "\u4E3B\u6B66\u5668\u51FB\u4E2D5\u6B21\u540E\uFF0C\u5C06\u5BF9\u968F\u673A2\u4E2A\u654C\u4EBA\u91CA\u653E\u5149\u4E4B\u5203\u9020\u6210\u4F24\u5BB3\u3002"
+    Description_en: When the main weapon deals damage 5 times, it will randomly strike
+      two enemies from the sky with blades of light.
+    Description_tw: "\u4E3B\u6B66\u5668\u64CA\u4E2D5\u6B21\u5F8C\uFF0C\u5C07\u5C0D\u96A8\u6A5F2\u500B\u6575\u4EBA\u91CB\u653E\u5149\u4E4B\u5203\u9020\u6210\u50B7\u5BB3\u3002"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 125
+    Interval: 5
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 4
+    Type: 4
+    Knockback: 0
+    Time: 0.5
+    Description: "\u5149\u306E\u5203\u6570+2"
+    Description_cn: "\u5149\u4E4B\u5203\u7684\u6570\u91CF+2"
+    Description_en: Number of blades of light+2.
+    Description_tw: "\u5149\u4E4B\u5203\u7684\u6578\u91CF+2"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 145
+    Interval: 5
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 4
+    Type: 4
+    Knockback: 0
+    Time: 0.5
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05"
+    Description_cn: "\u4F24\u5BB3+20%"
+    Description_en: Damage+20%
+    Description_tw: "\u50B7\u5BB3+20%"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 145
+    Interval: 4
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 4
+    Type: 4
+    Knockback: 0
+    Time: 0.5
+    Description: "\u30E1\u30A4\u30F3\u6B66\u56684\u56DE\u653B\u6483\u3059\u308B\u5EA6"
+    Description_cn: "\u4E3B\u6B66\u5668\u6BCF\u653B\u51FB4\u6B21"
+    Description_en: Every 4 attacks
+    Description_tw: "\u4E3B\u6B66\u5668\u6BCF\u653B\u64CA4\u6B21"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 145
+    Interval: 4
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 6
+    Type: 4
+    Knockback: 0
+    Time: 0.5
+    Description: "\u5149\u306E\u5203\u6570+2"
+    Description_cn: "\u5149\u4E4B\u5203\u7684\u6570\u91CF+2"
+    Description_en: Number of blades of light+2.
+    Description_tw: "\u5149\u4E4B\u5203\u7684\u6578\u91CF+2"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 165
+    Interval: 4
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 6
+    Type: 4
+    Knockback: 0
+    Time: 0.5
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05"
+    Description_cn: "\u4F24\u5BB3+20%"
+    Description_en: Damage+20%
+    Description_tw: "\u50B7\u5BB3+20%"
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 165
+    Interval: 4
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 8
+    Type: 4
+    Knockback: 0
+    Time: 0.5
+    Description: "\u5149\u306E\u5203\u6570+2\u3001\u5F53\u305F\u3063\u305F\u6575\u304C20\uFF05\u306E\u78BA\u7387\u30672\u79D2\u6C17\u7D76\u3059\u308B\u3002"
+    Description_cn: "\u5149\u4E4B\u5203\u7684\u6570\u91CF+2\n\u88AB\u51FB\u4E2D\u7684\u654C\u4EBA\u670920%\u7684\u51E0\u7387\u6655\u7729"
+    Description_en: Number of blades of light+2.Enemy has a 20% chance to be stunned
+      for 2 seconds
+    Description_tw: "\u5149\u4E4B\u5203\u7684\u6578\u91CF+2\n\u88AB\u64CA\u4E2D\u7684\u6575\u4EBA\u670920%\u7684\u6A5F\u7387\u6688\u7729"
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 200
+      value2: 20
+      exWeaponStatus: 4
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas: []

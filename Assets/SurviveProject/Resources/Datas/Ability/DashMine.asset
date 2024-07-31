@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: DashMine
+  m_EditorClassIdentifier: 
+  ID: 10
+  Name: "\u7206\u5F3E"
+  Name_cn: 
+  Name_en: Bomb
+  Name_tw: 
+  basePrefab: {fileID: 168556367910316536, guid: c84d64c62c85b084caf19a05a1b81793,
+    type: 3}
+  image: {fileID: 21300000, guid: e5feedbe9f6f8c747abc6f34fa3152e7, type: 3}
+  abilityDataType: 1
+  TargetCharacterID: -1
+  Description: "\u30C0\u30C3\u30B7\u30E5\u6642\u306B\u6575\u306B\u89E6\u308C\u308B\u3068\u7206\u767A\u3059\u308B\u7206\u5F3E\u3092\u8A2D\u7F6E\u3059\u308B\u3002"
+  Description_en: Place a bomb that explodes when it touches an enemy during a dash.
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas:
+  - DamageRate: 0
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 6
+    Description: "\u30C0\u30C3\u30B7\u30E5\u6642\u306B\u6575\u306B\u89E6\u308C\u308B\u3068\u7206\u767A\u3059\u308B\u7206\u5F3E\u3092\u8A2D\u7F6E\u3059\u308B\u3002"
+    Description_cn: 
+    Description_en: Place a bomb that explodes when it touches an enemy during a
+      dash.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 6
+      exStatus:
+        DamageRate: 230
+        Interval: 1
+        Speed: 0
+        AreaStr: 
+        Size: 1
+        Num: 1
+        Type: 4
+        Knockback: 50
+        Time: 0.5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 0
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.3
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 6
+    Description: "\u653B\u6483\u7BC4\u56F2+30\uFF05"
+    Description_cn: 
+    Description_en: Attack range+30%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 6
+      exStatus:
+        DamageRate: 230
+        Interval: 1
+        Speed: 0
+        AreaStr: 
+        Size: 1.3
+        Num: 1
+        Type: 4
+        Knockback: 50
+        Time: 0.5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 0
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.3
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 6.5
+    Description: "\u7D99\u7D9A\u6642\u9593+0.5\u79D2"
+    Description_cn: 
+    Description_en: Duration +0.5 sec.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 6
+      exStatus:
+        DamageRate: 230
+        Interval: 1
+        Speed: 0
+        AreaStr: 
+        Size: 1.3
+        Num: 1
+        Type: 4
+        Knockback: 50
+        Time: 0.5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 0
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.3
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 6.5
+    Description: "\u30C0\u30E1\u30FC\u30B8+30\uFF05\n\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\uFF08\u4E2D\uFF09"
+    Description_cn: 
+    Description_en: 'Damage+30%
+
+      Knockback(M)'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 6
+      exStatus:
+        DamageRate: 260
+        Interval: 1
+        Speed: 0
+        AreaStr: 
+        Size: 1.3
+        Num: 1
+        Type: 4
+        Knockback: 100
+        Time: 0.5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 0
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.6
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 6.5
+    Description: "\u653B\u6483\u7BC4\u56F2+30\uFF05"
+    Description_cn: 
+    Description_en: Attack range+30%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 6
+      exStatus:
+        DamageRate: 260
+        Interval: 1
+        Speed: 0
+        AreaStr: 
+        Size: 1.6
+        Num: 1
+        Type: 4
+        Knockback: 100
+        Time: 0.5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 0
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.6
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 7
+    Description: "\u7D99\u7D9A\u6642\u9593+0.5\u79D2"
+    Description_cn: 
+    Description_en: Duration +0.5 sec.
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 6
+      exStatus:
+        DamageRate: 260
+        Interval: 1
+        Speed: 0
+        AreaStr: 
+        Size: 1.6
+        Num: 1
+        Type: 4
+        Knockback: 100
+        Time: 0.5
+        Penetration: -1
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  - DamageRate: 0
+    Interval: 1
+    Speed: 0
+    AreaStr: 
+    Size: 1.6
+    Num: 1
+    Type: 4
+    Knockback: 0
+    Time: 7
+    Description: "\u30C0\u30E1\u30FC\u30B8+30\uFF05\n\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\uFF08\u5927\uFF09\n\u5730\u96F7\u306E\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u305F\u3042\u3068\u306E5\u79D2\u9593\u3001\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u91CF+30\uFF05"
+    Description_cn: 
+    Description_en: 'Damage+30%
+
+      Knockback(L)
+
+      For 5 seconds after taking
+      damage from Flame Landmine, damage taken is increased by 30%.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 6
+      exStatus:
+        DamageRate: 290
+        Interval: 1
+        Speed: 0
+        AreaStr: 
+        Size: 1.6
+        Num: 1
+        Type: 4
+        Knockback: 200
+        Time: 0.5
+        Penetration: -1
+        exWeaponStatus: 9
+        exWeaponStatusValue: 0.3
+  ItemLevelDatas: []

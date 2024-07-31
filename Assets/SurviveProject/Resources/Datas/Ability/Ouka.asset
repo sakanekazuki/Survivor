@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: Ouka
+  m_EditorClassIdentifier: 
+  ID: 2
+  Name: "\u8056\u5177\u300C\u30C7\u30E2\u30F3\u30AD\u30E9\u30FC\u300D"
+  Name_cn: 
+  Name_en: Sacred tool "Demon Killer"
+  Name_tw: 
+  basePrefab: {fileID: 8314785364271324684, guid: cb13d94dffaa4f846b523949c8d908f3,
+    type: 3}
+  image: {fileID: 21300000, guid: db5e3d7e1a3fdb64d90c50e49d9e1cda, type: 3}
+  abilityDataType: 0
+  TargetCharacterID: 3
+  Description: "\u5E83\u7BC4\u56F2\u306B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3001\u6575\u3092\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\u3059\u308B"
+  Description_en: Damage a wide range and knockback the enemy
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas:
+  - DamageRate: 100
+    Interval: 2.35
+    Speed: 0
+    AreaStr: "\u5927"
+    Size: 3
+    Num: 1
+    Type: 2
+    Knockback: 100
+    Time: 0.4
+    Description: "\u5E83\u7BC4\u56F2\u306B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3001\u6575\u3092\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\u3059\u308B."
+    Description_cn: 
+    Description_en: Damage a wide range and knockback the enemy
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 2.35
+    Speed: 0
+    AreaStr: "\u5927"
+    Size: 3
+    Num: 1
+    Type: 2
+    Knockback: 100
+    Time: 0.4
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05"
+    Description_cn: 
+    Description_en: Damage+20%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 120
+    Interval: 2.35
+    Speed: 0
+    AreaStr: "\u5927"
+    Size: 3.6
+    Num: 1
+    Type: 2
+    Knockback: 100
+    Time: 0.4
+    Description: "\u653B\u6483\u7BC4\u56F2+20\uFF05"
+    Description_cn: 
+    Description_en: Attack range+20%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 145
+    Interval: 2.35
+    Speed: 0
+    AreaStr: "\u5927"
+    Size: 3.6
+    Num: 1
+    Type: 2
+    Knockback: 100
+    Time: 0.4
+    Description: "\u30C0\u30E1\u30FC\u30B8+25\uFF05"
+    Description_cn: 
+    Description_en: Damage+25%
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 145
+    Interval: 2.35
+    Speed: 0
+    AreaStr: "\u5927"
+    Size: 4.32
+    Num: 1
+    Type: 2
+    Knockback: 200
+    Time: 0.4
+    Description: "\u653B\u6483\u7BC4\u56F2+20\uFF05\n\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\uFF08\u5927\uFF09\u306B\u306A\u308B"
+    Description_cn: 
+    Description_en: 'Attack range+20%
+
+      Knockback(L)'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 165
+    Interval: 2.15
+    Speed: 0
+    AreaStr: "\u5927"
+    Size: 4.32
+    Num: 1
+    Type: 2
+    Knockback: 200
+    Time: 0.4
+    Description: "\u30C0\u30E1\u30FC\u30B8+20\uFF05\n\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.2\u79D2"
+    Description_cn: 
+    Description_en: 'Damage+20%
+
+      This weapon''s  CD -0.2 sec.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses: []
+  - DamageRate: 165
+    Interval: 1.95
+    Speed: 0
+    AreaStr: "\u5927"
+    Size: 4.32
+    Num: 1
+    Type: 2
+    Knockback: 300
+    Time: 0.4
+    Description: "\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\uFF08\u7279\u5927\uFF09\n\u79FB\u52D5\u3057\u306A\u3044\u6642\u3001\u30C0\u30E1\u30FC\u30B8+50\uFF05\u3001\u653B\u6483\u7BC4\u56F2+75\uFF05\u3001\n\u79FB\u52D5\u3059\u308B\u6642\u3001\u3053\u306E\u6B66\u5668\u306E\u653B\u6483\u9593\u9694-0.2\u79D2\u3001HP\u81EA\u7136\u56DE\u5FA9+3\uFF05"
+    Description_cn: 
+    Description_en: 'Knockback(EX)
+
+      While not moving,Damage range+50%,Attack
+      range+75%.
+
+      While moving, this weapon''s CD -0.2 sec., natural HP recovery
+      +3%.'
+    Description_tw: 
+    Penetration: -1
+    exWeaponStatuses:
+    - value1: 0
+      value2: 0
+      exWeaponStatus: 11
+      exStatus:
+        DamageRate: 0
+        Interval: 0
+        Speed: 0
+        AreaStr: 
+        Size: 0
+        Num: 0
+        Type: 0
+        Knockback: 0
+        Time: 0
+        Penetration: 0
+        exWeaponStatus: 0
+        exWeaponStatusValue: 0
+  ItemLevelDatas: []

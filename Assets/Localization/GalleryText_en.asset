@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GalleryText_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b3b89ec730a67194fb2a844740c84e54, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 28252123136
+    m_Localized: Fly the magic bullet to the front and attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399674519552
+    m_Localized: Attack twice in front of you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 474727395328
+    m_Localized: Damage a wide range and knockback  the enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502904729600
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521326112768
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547280465920
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549310509056
+    m_Localized: Deploy a mobile damage zone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550459748352
+    m_Localized: Perform a piercing area attack on the nearest enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 551273443328
+    m_Localized: Tarot that spin around oneself
+    m_Metadata:
+      m_Items: []
+  - m_Id: 551902588928
+    m_Localized: Deploy a damage zone that reduces the movement speed of enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 552590454784
+    m_Localized: Deal damage to enemies within a radius around oneself while dashing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 553248960512
+    m_Localized: Place a bomb that explodes when it touches an enemy during a dash.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 554037489664
+    m_Localized: While dashing, release a spreading attack centered around oneself
+      that deals damage and knockback to enemies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 554654052352
+    m_Localized: Perform a slashing attack that pierces through the screen in the
+      direction of the dash.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 555341918208
+    m_Localized: Leave a trail of fire along the movement path for 3 seconds after
+      dashing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 556029784064
+    m_Localized: For every 6 hits with the main weapon, an additional hit of damage
+      is dealt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 556616986624
+    m_Localized: When attacking with the main weapon, a vacuum blade is sent flying.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 557309046784
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 557996912640
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 558621863936
+    m_Localized: Max HP +10%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559968235520
+    m_Localized: Natural HP Recovery +1%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 560656101376
+    m_Localized: Movement Speed +10%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 561314607104
+    m_Localized: Max Dash+1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 561994084352
+    m_Localized: Dash Recovery+4%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 562686144512
+    m_Localized: Critical Rate+4%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563378204672
+    m_Localized: Item Pickup Range+20%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 564057681920
+    m_Localized: EXP gain+10%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 564846211072
+    m_Localized: Coin gain +10%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565466968064
+    m_Localized: Damage+8%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566100307968
+    m_Localized: Attack Range+7%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566783979520
+    m_Localized: Weapons Cooldown-5%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 567438290944
+    m_Localized: Fire Projectiles+1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 568059047936
+    m_Localized: Generate an barrier that can nullify damage once every 60 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 568679804928
+    m_Localized: Knockback Distance +5%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570617573376
+    m_Localized: Earn coins+30%,Movement Speed-35%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 571406102528
+    m_Localized: "All \"portion\" dropped become \"coins\", \r\ndamage taken +35%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 572748279808
+    m_Localized: All damage +25%, Max HP -30%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 573369036800
+    m_Localized: Critical Rate+10%,Natural HP recovery will not occur
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

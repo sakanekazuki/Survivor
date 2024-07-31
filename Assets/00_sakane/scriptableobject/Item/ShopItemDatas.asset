@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30aed11ecb1511b488459a0c8dd57486, type: 3}
+  m_Name: ShopItemDatas
+  m_EditorClassIdentifier: 
+  datas:
+  - ID: 1
+    levelUpValue: 6
+    localizedKey: MaxHP
+    icon: {fileID: 21300000, guid: ccf513f624b10164f8e88f2bcdd0b9ae, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 120
+    - level: 2
+      price: 360
+    - level: 3
+      price: 880
+    - level: 4
+      price: 1440
+    - level: 5
+      price: 3240
+    - level: 6
+      price: 4880
+    - level: 7
+      price: 6300
+    - level: 8
+      price: 7200
+    - level: 9
+      price: 9600
+    - level: 10
+      price: 12260
+  - ID: 2
+    levelUpValue: 5
+    localizedKey: Damage
+    icon: {fileID: 21300000, guid: f22864123358c2645a39c4a16b56e6c0, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 200
+    - level: 2
+      price: 400
+    - level: 3
+      price: 960
+    - level: 4
+      price: 1550
+    - level: 5
+      price: 3420
+    - level: 6
+      price: 5000
+    - level: 7
+      price: 6670
+    - level: 8
+      price: 8600
+    - level: 9
+      price: 10500
+    - level: 10
+      price: 13360
+  - ID: 3
+    levelUpValue: 4
+    localizedKey: MoveSpeed
+    icon: {fileID: 21300000, guid: 00841fa96737adf4ea80872dba647420, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 80
+    - level: 2
+      price: 140
+    - level: 3
+      price: 330
+    - level: 4
+      price: 780
+    - level: 5
+      price: 1180
+    - level: 6
+      price: 2840
+    - level: 7
+      price: 4530
+    - level: 8
+      price: 5800
+    - level: 9
+      price: 7700
+    - level: 10
+      price: 9330
+  - ID: 4
+    levelUpValue: 4
+    localizedKey: Critical
+    icon: {fileID: 21300000, guid: ce6c69ec828c1894a83143955bf2ef89, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 660
+    - level: 2
+      price: 1860
+    - level: 3
+      price: 4250
+    - level: 4
+      price: 7360
+    - level: 5
+      price: 10500
+  - ID: 5
+    levelUpValue: 5
+    localizedKey: FlySpeed
+    icon: {fileID: 21300000, guid: 9aa69be733d303b468281ca645ecbf36, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 120
+    - level: 2
+      price: 360
+    - level: 3
+      price: 880
+    - level: 4
+      price: 1440
+    - level: 5
+      price: 3240
+    - level: 6
+      price: 4880
+    - level: 7
+      price: 6300
+    - level: 8
+      price: 7200
+    - level: 9
+      price: 9600
+    - level: 10
+      price: 12260
+  - ID: 6
+    levelUpValue: 4
+    localizedKey: AttackRange
+    icon: {fileID: 21300000, guid: d9386873d0a716e479adedd8af1b010c, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 120
+    - level: 2
+      price: 360
+    - level: 3
+      price: 880
+    - level: 4
+      price: 1440
+    - level: 5
+      price: 3240
+    - level: 6
+      price: 4880
+    - level: 7
+      price: 6300
+    - level: 8
+      price: 7200
+    - level: 9
+      price: 9600
+    - level: 10
+      price: 12260
+  - ID: 7
+    levelUpValue: 4
+    localizedKey: LastTime
+    icon: {fileID: 21300000, guid: 83334c8a27c4bd649a097317c87637e4, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 120
+    - level: 2
+      price: 360
+    - level: 3
+      price: 880
+    - level: 4
+      price: 1440
+    - level: 5
+      price: 3240
+    - level: 6
+      price: 4880
+    - level: 7
+      price: 6300
+    - level: 8
+      price: 7200
+    - level: 9
+      price: 9600
+    - level: 10
+      price: 12260
+  - ID: 8
+    levelUpValue: 6
+    localizedKey: PickRange
+    icon: {fileID: 21300000, guid: 795e407ae8ad3ad4cbc723a5ed6194c8, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 80
+    - level: 2
+      price: 140
+    - level: 3
+      price: 330
+    - level: 4
+      price: 780
+    - level: 5
+      price: 1180
+    - level: 6
+      price: 2840
+    - level: 7
+      price: 4530
+    - level: 8
+      price: 5800
+    - level: 9
+      price: 7700
+    - level: 10
+      price: 9330
+  - ID: 9
+    levelUpValue: 4
+    localizedKey: AttackInterval
+    icon: {fileID: 21300000, guid: 841b7193896a698449326e52bb4d0904, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 200
+    - level: 2
+      price: 400
+    - level: 3
+      price: 960
+    - level: 4
+      price: 1550
+    - level: 5
+      price: 3420
+    - level: 6
+      price: 5000
+    - level: 7
+      price: 6670
+    - level: 8
+      price: 8600
+    - level: 9
+      price: 10500
+    - level: 10
+      price: 13360
+  - ID: 10
+    levelUpValue: 0.1
+    localizedKey: HPRecovery
+    icon: {fileID: 21300000, guid: 31a25ee2725ca9c4387787b7a5188be9, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 80
+    - level: 2
+      price: 140
+    - level: 3
+      price: 330
+    - level: 4
+      price: 780
+    - level: 5
+      price: 1180
+    - level: 6
+      price: 2840
+    - level: 7
+      price: 4530
+    - level: 8
+      price: 5800
+    - level: 9
+      price: 7700
+    - level: 10
+      price: 9330
+  - ID: 11
+    levelUpValue: 1
+    localizedKey: DamageCut
+    icon: {fileID: 21300000, guid: e71c245dc0c28b14e84c6ad98025e57d, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 660
+    - level: 2
+      price: 1860
+    - level: 3
+      price: 4250
+    - level: 4
+      price: 7360
+    - level: 5
+      price: 10500
+  - ID: 12
+    levelUpValue: 8
+    localizedKey: GainExp
+    icon: {fileID: 21300000, guid: 47b01548cafbc604090c8d2de135a170, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 660
+    - level: 2
+      price: 1860
+    - level: 3
+      price: 4250
+    - level: 4
+      price: 7360
+    - level: 5
+      price: 10500
+  - ID: 13
+    levelUpValue: 8
+    localizedKey: GainCoin
+    icon: {fileID: 21300000, guid: 996cd3b0b774a5545bec2233339666e2, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 660
+    - level: 2
+      price: 1860
+    - level: 3
+      price: 4250
+    - level: 4
+      price: 7360
+    - level: 5
+      price: 10500
+  - ID: 14
+    levelUpValue: 1
+    localizedKey: Reroll
+    icon: {fileID: 21300000, guid: d239ef1abd903eb4b8bd94d1d1826862, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 2400
+    - level: 2
+      price: 3600
+    - level: 3
+      price: 5000
+    - level: 4
+      price: 7600
+    - level: 5
+      price: 12300
+  - ID: 15
+    levelUpValue: 1
+    localizedKey: WeaponLimit
+    icon: {fileID: 21300000, guid: 9aeb78b4df6d94249b177261dfbebec8, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 15000
+    - level: 2
+      price: 45000
+  - ID: 16
+    levelUpValue: 1
+    localizedKey: RelicLimit
+    icon: {fileID: 21300000, guid: 6d87a4b6dcf151440b6f5d040444d7c1, type: 3}
+    shopItemLevelDatas:
+    - level: 1
+      price: 15000
+    - level: 2
+      price: 45000

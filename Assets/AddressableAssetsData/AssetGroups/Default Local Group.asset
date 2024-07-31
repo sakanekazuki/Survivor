@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 16770712c5c17e445947e34cb9f32e7f
+  m_SerializeEntries:
+  - m_GUID: 00677f19e0ee507418e09b8bd30622b5
+    m_Address: Assets/00_sugyou/Scripts/rui_001.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec39b3f47adecc34a9f372673dddabcb
+    m_Address: GalleryText_en
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da7777c2f26f6c345b3c51fef8758514
+    m_Address: GalleryText_zh-TW
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6db18627987dcb24ba02e61e802199a5
+    m_Address: GalleryText_zh-CN
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41718f16bf99ce341b59f4e7b41537c7
+    m_Address: GalleryText_ja
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3b89ec730a67194fb2a844740c84e54
+    m_Address: Assets/Localization/GalleryText Shared Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f80721d8fcdc7b940aafb0b0e979d515
+    m_Address: GalleryItemName_zh-TW
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f4598bbb3d6fea428587b7d62c7a473
+    m_Address: GalleryItemName_ja
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1b00b69f7c9a4843a1e20ab6f86a3ec
+    m_Address: GalleryItemName_zh-CN
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dde270eb0825ab04980cbcb901221af4
+    m_Address: GalleryItemName_en
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99d07bb8ca05adf4897647339c0c1421
+    m_Address: Assets/Localization/GalleryItemName Shared Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 055edc59a6a6866458734ad68cdaea07, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 510d8caa86d218e4d9a90bfb72088439, type: 2}
+    - {fileID: 11400000, guid: bbb6018f81b79a84699eb72694ce94aa, type: 2}

@@ -1,0 +1,5 @@
+; Japanese <ja> to English <en> localization document for `CharacterNames` managed text document
+
+b: b
+k: Kohaku
+n: Nani-kun

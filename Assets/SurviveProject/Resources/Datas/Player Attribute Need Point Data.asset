@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c772d78c8e4d4d84883e096c3e58d9d0, type: 3}
+  m_Name: Player Attribute Need Point Data
+  m_EditorClassIdentifier: 
+  data:
+  - level: 1
+    point: 2
+  - level: 2
+    point: 2
+  - level: 3
+    point: 2
+  - level: 4
+    point: 2
+  - level: 5
+    point: 2
+  - level: 6
+    point: 2
+  - level: 7
+    point: 2
+  - level: 8
+    point: 2
+  - level: 9
+    point: 2
+  - level: 10
+    point: 3
+  - level: 11
+    point: 3
+  - level: 12
+    point: 3
+  - level: 13
+    point: 3
+  - level: 14
+    point: 3
+  - level: 15
+    point: 3
+  - level: 16
+    point: 3
+  - level: 17
+    point: 3
+  - level: 18
+    point: 3
+  - level: 19
+    point: 3
+  - level: 20
+    point: 4
+  - level: 21
+    point: 4
+  - level: 22
+    point: 4
+  - level: 23
+    point: 4
+  - level: 24
+    point: 4
+  - level: 25
+    point: 4
+  - level: 26
+    point: 4
+  - level: 27
+    point: 4
+  - level: 28
+    point: 4
+  - level: 29
+    point: 4
+  - level: 30
+    point: 5
+  - level: 31
+    point: 5
+  - level: 32
+    point: 5
+  - level: 33
+    point: 5
+  - level: 34
+    point: 5
+  - level: 35
+    point: 5
+  - level: 36
+    point: 5
+  - level: 37
+    point: 5
+  - level: 38
+    point: 5
+  - level: 39
+    point: 5
+  - level: 40
+    point: 6
+  - level: 41
+    point: 6
+  - level: 42
+    point: 6
+  - level: 43
+    point: 6
+  - level: 44
+    point: 6
+  - level: 45
+    point: 6
+  - level: 46
+    point: 6
+  - level: 47
+    point: 6
+  - level: 48
+    point: 6
+  - level: 49
+    point: 6
+  - level: 50
+    point: 7
+  - level: 51
+    point: 7
+  - level: 52
+    point: 7
+  - level: 53
+    point: 7
+  - level: 54
+    point: 7
+  - level: 55
+    point: 7
+  - level: 56
+    point: 7
+  - level: 57
+    point: 7
+  - level: 58
+    point: 7
+  - level: 59
+    point: 7
+  - level: 60
+    point: 8
+  - level: 61
+    point: 8
+  - level: 62
+    point: 8
+  - level: 63
+    point: 8
+  - level: 64
+    point: 8
+  - level: 65
+    point: 8
+  - level: 66
+    point: 8
+  - level: 67
+    point: 8
+  - level: 68
+    point: 8
+  - level: 69
+    point: 8
+  - level: 70
+    point: 9
+  - level: 71
+    point: 9
+  - level: 72
+    point: 9
+  - level: 73
+    point: 9
+  - level: 74
+    point: 9
+  - level: 75
+    point: 9
+  - level: 76
+    point: 9
+  - level: 77
+    point: 9
+  - level: 78
+    point: 9
+  - level: 79
+    point: 9
+  - level: 80
+    point: 10
+  - level: 81
+    point: 10
+  - level: 82
+    point: 10
+  - level: 83
+    point: 10
+  - level: 84
+    point: 10
+  - level: 85
+    point: 10
+  - level: 86
+    point: 10
+  - level: 87
+    point: 10
+  - level: 88
+    point: 10
+  - level: 89
+    point: 10
+  - level: 90
+    point: 11
+  - level: 91
+    point: 11
+  - level: 92
+    point: 11
+  - level: 93
+    point: 11
+  - level: 94
+    point: 11
+  - level: 95
+    point: 11
+  - level: 96
+    point: 11
+  - level: 97
+    point: 11
+  - level: 98
+    point: 11
+  - level: 99
+    point: 11
+  - level: 100
+    point: 15
+  - level: 101
+    point: 15
+  - level: 102
+    point: 15
+  - level: 103
+    point: 15
+  - level: 104
+    point: 15
+  - level: 105
+    point: 15
+  - level: 106
+    point: 15
+  - level: 107
+    point: 15
+  - level: 108
+    point: 15
+  - level: 109
+    point: 15
+  - level: 110
+    point: 15
+  - level: 111
+    point: 15
+  - level: 112
+    point: 15
+  - level: 113
+    point: 15
+  - level: 114
+    point: 15
+  - level: 115
+    point: 15
+  - level: 116
+    point: 15
+  - level: 117
+    point: 15
+  - level: 118
+    point: 15
+  - level: 119
+    point: 15
+  - level: 120
+    point: 18
+  - level: 121
+    point: 18
+  - level: 122
+    point: 18
+  - level: 123
+    point: 18
+  - level: 124
+    point: 18
+  - level: 125
+    point: 18
+  - level: 126
+    point: 18
+  - level: 127
+    point: 18
+  - level: 128
+    point: 18
+  - level: 129
+    point: 18
+  - level: 130
+    point: 18
+  - level: 131
+    point: 18
+  - level: 132
+    point: 18
+  - level: 133
+    point: 18
+  - level: 134
+    point: 18
+  - level: 135
+    point: 18
+  - level: 136
+    point: 18
+  - level: 137
+    point: 18
+  - level: 138
+    point: 18
+  - level: 139
+    point: 18
+  - level: 140
+    point: 20

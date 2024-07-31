@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c5d64ecfbb38ae4d8eef59df77a0259, type: 3}
+  m_Name: Character Datas
+  m_EditorClassIdentifier: 
+  datas:
+  - ID: 1
+    NAME: "\u5F69\u97F3"
+    ATTACK: 6
+    SPEED: 5
+    MAX_HP: 100
+    DASH_NUM: 1
+    DASH_INTERVAL: 1.2
+    DASH_POWER: 5
+    CRITICAL: 5
+    COINCOST: 0
+    isLocked: 0
+    localizedNameKey: UIAyaneName
+    localizedUnlockNameKey: UIAyaneUnlockName
+    localizedWeaponIntroKey: UIAyaneWeapon
+    charaImage: {fileID: 21300000, guid: 4872505108cc88e46aae0e44cad642b7, type: 3}
+    charaLockImage: {fileID: 21300000, guid: fcf9714d2c230a64eac584941112f9af, type: 3}
+    charaWeapon: {fileID: 21300000, guid: 22a6a6613f1dcdf4abe48af6485c2e44, type: 3}
+    charaSD: {fileID: 7400000, guid: 67980cec2161e004ab2034600688b558, type: 2}
+    Prefab: {fileID: 1790328835693532, guid: b253b4765d187fa42b68cdf6d6650856, type: 3}
+    PickUP: 2.2
+    WeaponInterval: 1
+    SkillInterval: 1
+    Luck: 10
+    Regeneration: 0
+    EXPUp: 1
+    GoldUp: 1
+    AREA: 1
+    ThrowNum: 0
+    KnockBack: 1
+    Shield: 0
+    Reroll: 0
+    WeaponNum: 6
+    ItemNum: 6
+    AttributeStatusLevel: 02000000050000000b000000040000000700000002000000
+  - ID: 2
+    NAME: "\u6731\u685C"
+    ATTACK: 9
+    SPEED: 4.25
+    MAX_HP: 110
+    DASH_NUM: 1
+    DASH_INTERVAL: 1.2
+    DASH_POWER: 5
+    CRITICAL: 5
+    COINCOST: 600
+    isLocked: 1
+    localizedNameKey: UISuouName
+    localizedUnlockNameKey: UISuouUnlockName
+    localizedWeaponIntroKey: UISuouWeapon
+    charaImage: {fileID: 21300000, guid: fcf9714d2c230a64eac584941112f9af, type: 3}
+    charaLockImage: {fileID: 21300000, guid: 5c3bcb867e966f147b93853be1070da4, type: 3}
+    charaWeapon: {fileID: 21300000, guid: 3290c99666088d5468165ea7ee7306b1, type: 3}
+    charaSD: {fileID: 7400000, guid: c59948d84e8e44c43aac84c06826735d, type: 2}
+    Prefab: {fileID: 1790328835693532, guid: dc159f9b25c387447b450aa5824447e3, type: 3}
+    PickUP: 2.2
+    WeaponInterval: 1
+    SkillInterval: 1
+    Luck: 10
+    Regeneration: 0
+    EXPUp: 1
+    GoldUp: 1
+    AREA: 1
+    ThrowNum: 0
+    KnockBack: 1
+    Shield: 0
+    Reroll: 0
+    WeaponNum: 6
+    ItemNum: 6
+    AttributeStatusLevel: 0c0000000700000002000000050000000500000002000000
+  - ID: 3
+    NAME: "\u5C0F\u591C\u5B50"
+    ATTACK: 14
+    SPEED: 5.75
+    MAX_HP: 75
+    DASH_NUM: 2
+    DASH_INTERVAL: 1.2
+    DASH_POWER: 5
+    CRITICAL: 15
+    COINCOST: 3000
+    isLocked: 1
+    localizedNameKey: UISayokoName
+    localizedUnlockNameKey: UISayokoUnlockName
+    localizedWeaponIntroKey: UISayokoWeapon
+    charaImage: {fileID: 21300000, guid: 16c044aab76270044908d023f37a8214, type: 3}
+    charaLockImage: {fileID: 21300000, guid: a92bb2382dc82d5449c760fd3ebeb881, type: 3}
+    charaWeapon: {fileID: 21300000, guid: 1328715943688c049a5fa52ec6c43472, type: 3}
+    charaSD: {fileID: 7400000, guid: 3f5eee6abb964d84791c08150e2f63de, type: 2}
+    Prefab: {fileID: 1790328835693532, guid: 518ef767146ec1547b697d3f80dfb51e, type: 3}
+    PickUP: 2.2
+    WeaponInterval: 1
+    SkillInterval: 1
+    Luck: 10
+    Regeneration: 0
+    EXPUp: 1
+    GoldUp: 1
+    AREA: 1
+    ThrowNum: 0
+    KnockBack: 1
+    Shield: 0
+    Reroll: 0
+    WeaponNum: 6
+    ItemNum: 6
+    AttributeStatusLevel: 040000000700000002000000050000000b00000008000000

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: SesshoSeki
+  m_EditorClassIdentifier: 
+  ID: 119
+  Name: "\u546A\u3044\u306E\u4EBA\u5F62"
+  Name_cn: 
+  Name_en: Curse doll
+  Name_tw: 
+  basePrefab: {fileID: 0}
+  image: {fileID: 21300000, guid: 00af4ba4f33e1dd41aafb8322663c838, type: 3}
+  abilityDataType: 2
+  TargetCharacterID: -1
+  Description: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB\u738710\uFF05\u4E0A\u6607\u3001\u81EA\u7136\u56DE\u5FA9\u3057\u306A\u304F\u306A\u308B"
+  Description_en: Critical Rate+10%,Natural HP recovery will not occur
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas: []
+  ItemLevelDatas:
+  - Description: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB\u738710\uFF05\u4E0A\u6607\u3001\u81EA\u7136\u56DE\u5FA9\u3057\u306A\u304F\u306A\u308B"
+    Description_en: Critical Rate+10%,Natural HP recovery will not occur
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 10
+      exItemStatus: 0
+      StatusType: 3
+    - value: 0
+      exItemStatus: 2
+      StatusType: 0
+  - Description: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB\u738715\uFF05\u4E0A\u6607\u3001\u81EA\u7136\u56DE\u5FA9\u3057\u306A\u304F\u306A\u308B"
+    Description_en: Critical Rate+15%, Natural HP recovery will not occur
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 15
+      exItemStatus: 0
+      StatusType: 3
+    - value: 0
+      exItemStatus: 2
+      StatusType: 0
+  - Description: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB\u738720\uFF05\u4E0A\u6607\u3001\u81EA\u7136\u56DE\u5FA9\u3057\u306A\u304F\u306A\u308B"
+    Description_en: Critical Rate+20%, Natural HP recovery will not occur
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 20
+      exItemStatus: 0
+      StatusType: 3
+    - value: 0
+      exItemStatus: 2
+      StatusType: 0
+  - Description: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB\u738725\uFF05\u4E0A\u6607\u3001\u81EA\u7136\u56DE\u5FA9\u3057\u306A\u304F\u306A\u308B"
+    Description_en: Critical Rate+25%, Natural HP recovery will not occur
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 25
+      exItemStatus: 0
+      StatusType: 3
+    - value: 0
+      exItemStatus: 2
+      StatusType: 0

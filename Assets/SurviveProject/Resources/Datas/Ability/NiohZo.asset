@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595a15a6a1e746a4e849ad37ecb28b2f, type: 3}
+  m_Name: NiohZo
+  m_EditorClassIdentifier: 
+  ID: 110
+  Name: "\u525B\u529B\u306E\u8155\u8F2A"
+  Name_cn: 
+  Name_en: Rigid bracelet
+  Name_tw: 
+  basePrefab: {fileID: 0}
+  image: {fileID: 21300000, guid: 36772277055322b499e42aea78d6cb35, type: 3}
+  abilityDataType: 2
+  TargetCharacterID: -1
+  Description: "\u30C0\u30E1\u30FC\u30B8\u91CF+8\uFF05"
+  Description_en: Damage+8%
+  Description_tw: 
+  Description_cn: 
+  WeaponLevelDatas: []
+  ItemLevelDatas:
+  - Description: "\u30C0\u30E1\u30FC\u30B8\u91CF+8\uFF05"
+    Description_en: Damage+8%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.08
+      exItemStatus: 0
+      StatusType: 1
+  - Description: "\u30C0\u30E1\u30FC\u30B8\u91CF+8\uFF05"
+    Description_en: Damage+8%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.16
+      exItemStatus: 0
+      StatusType: 1
+  - Description: "\u30C0\u30E1\u30FC\u30B8\u91CF+8\uFF05"
+    Description_en: Damage+8%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.24
+      exItemStatus: 0
+      StatusType: 1
+  - Description: "\u30C0\u30E1\u30FC\u30B8\u91CF+8\uFF05"
+    Description_en: Damage+8%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.32
+      exItemStatus: 0
+      StatusType: 1
+  - Description: "\u30C0\u30E1\u30FC\u30B8\u91CF+8\uFF05"
+    Description_en: Damage+8%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.4
+      exItemStatus: 0
+      StatusType: 1
+  - Description: "\u30C0\u30E1\u30FC\u30B8\u91CF+8\uFF05"
+    Description_en: Damage+8%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.48
+      exItemStatus: 0
+      StatusType: 1
+  - Description: "\u30C0\u30E1\u30FC\u30B8\u91CF+8\uFF05"
+    Description_en: Damage+8%
+    Description_tw: 
+    Description_cn: 
+    itemStatusDatas:
+    - value: 0.56
+      exItemStatus: 0
+      StatusType: 1

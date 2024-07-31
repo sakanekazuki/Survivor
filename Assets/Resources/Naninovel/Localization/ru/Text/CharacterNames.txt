@@ -1,0 +1,5 @@
+; English <en> to Русский <ru> localization document for `CharacterNames` managed text document
+
+b: b
+k: Кохаку
+n: Нани-кун

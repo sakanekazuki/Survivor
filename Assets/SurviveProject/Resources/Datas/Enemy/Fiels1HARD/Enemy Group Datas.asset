@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec85213151932354b98e95a62dec67fb, type: 3}
+  m_Name: Enemy Group Datas
+  m_EditorClassIdentifier: 
+  datas:
+  - startTime: 0
+    endTime: 30
+    max: 40
+    interval: 1
+    patternObj: {fileID: 0}
+    enemyIDs: 02000000
+  - startTime: 20
+    endTime: 30
+    max: 50
+    interval: 1
+    patternObj: {fileID: 0}
+    enemyIDs: 0300000002000000
+  - startTime: 30
+    endTime: 60
+    max: 55
+    interval: 1
+    patternObj: {fileID: 0}
+    enemyIDs: 0300000002000000
+  - startTime: 60
+    endTime: 90
+    max: 75
+    interval: 1
+    patternObj: {fileID: 3577158295292847891, guid: afcae86eb01203b4682f14fc5cf7680e,
+      type: 3}
+    enemyIDs: 0b000000
+  - startTime: 80
+    endTime: 100
+    max: 100
+    interval: 0.3
+    patternObj: {fileID: 0}
+    enemyIDs: 04000000
+  - startTime: 90
+    endTime: 120
+    max: 100
+    interval: 0.3
+    patternObj: {fileID: 0}
+    enemyIDs: 010000000200000003000000
+  - startTime: 120
+    endTime: 180
+    max: 100
+    interval: 0.4
+    patternObj: {fileID: 3577158295292847891, guid: b2f0ae21c4514f74a8e8867a4bbbd48c,
+      type: 3}
+    enemyIDs: 03000000040000000b000000
+  - startTime: 150
+    endTime: 155
+    max: 120
+    interval: 0.4
+    patternObj: {fileID: 0}
+    enemyIDs: 05000000
+  - startTime: 180
+    endTime: 181
+    max: 125
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 06000000
+  - startTime: 180
+    endTime: 240
+    max: 120
+    interval: 0.4
+    patternObj: {fileID: 0}
+    enemyIDs: 0f00000008000000
+  - startTime: 200
+    endTime: 220
+    max: 150
+    interval: 0.4
+    patternObj: {fileID: 0}
+    enemyIDs: 0a00000008000000
+  - startTime: 240
+    endTime: 260
+    max: 200
+    interval: 0.4
+    patternObj: {fileID: 0}
+    enemyIDs: 0a0000000800000009000000
+  - startTime: 260
+    endTime: 300
+    max: 200
+    interval: 0.4
+    patternObj: {fileID: 0}
+    enemyIDs: 0700000008000000090000000a0000000b000000
+  - startTime: 290
+    endTime: 297
+    max: 180
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: 50f05753665c2474a96b3a7181c8eefc,
+      type: 3}
+    enemyIDs: 0c0000000d000000090000000a000000
+  - startTime: 297
+    endTime: 304
+    max: 130
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: 50f05753665c2474a96b3a7181c8eefc,
+      type: 3}
+    enemyIDs: 0c0000000d000000090000000a000000
+  - startTime: 304
+    endTime: 360
+    max: 130
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: 50f05753665c2474a96b3a7181c8eefc,
+      type: 3}
+    enemyIDs: 0c0000000d000000090000000a000000
+  - startTime: 360
+    endTime: 361
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 0e000000
+  - startTime: 360
+    endTime: 400
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: 2a2fbf4b07c8f2543821737eaed3b923,
+      type: 3}
+    enemyIDs: 0f00000010000000
+  - startTime: 400
+    endTime: 460
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 1100000012000000
+  - startTime: 460
+    endTime: 540
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 130000001400000015000000
+  - startTime: 540
+    endTime: 541
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 16000000
+  - startTime: 540
+    endTime: 600
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: 17403d77c56a7b34684f69a58bc35f41,
+      type: 3}
+    enemyIDs: 170000001800000019000000
+  - startTime: 600
+    endTime: 601
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 1a000000
+  - startTime: 600
+    endTime: 660
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 1b0000001c0000001d000000
+  - startTime: 640
+    endTime: 690
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 1d0000001e0000001f000000
+  - startTime: 690
+    endTime: 720
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: 1200acfa2c9890a4985a8fb2571ce0cc,
+      type: 3}
+    enemyIDs: 200000002000000021000000
+  - startTime: 720
+    endTime: 721
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 22000000
+  - startTime: 720
+    endTime: 780
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: 1200acfa2c9890a4985a8fb2571ce0cc,
+      type: 3}
+    enemyIDs: 230000002400000025000000
+  - startTime: 780
+    endTime: 840
+    max: 200
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 2600000027000000
+  - startTime: 840
+    endTime: 900
+    max: 180
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: 7bbe05520d5fce4429ca61e0fc2b4506,
+      type: 3}
+    enemyIDs: 2800000029000000
+  - startTime: 900
+    endTime: 901
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 2a000000
+  - startTime: 900
+    endTime: 960
+    max: 100
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: e9de5bdc9e4e5f64fa3e06fc704ec273,
+      type: 3}
+    enemyIDs: 2b000000
+  - startTime: 960
+    endTime: 1080
+    max: 175
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 2c0000002d0000002e0000002f000000
+  - startTime: 1080
+    endTime: 1081
+    max: 175
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 30000000
+  - startTime: 1080
+    endTime: 1110
+    max: 175
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: b978ac5cbfef8c64eb12cb8ddd287872,
+      type: 3}
+    enemyIDs: 310000003200000032000000
+  - startTime: 1110
+    endTime: 1140
+    max: 175
+    interval: 0.5
+    patternObj: {fileID: 3577158295292847891, guid: b978ac5cbfef8c64eb12cb8ddd287872,
+      type: 3}
+    enemyIDs: 310000003200000032000000
+  - startTime: 1140
+    endTime: 1200
+    max: 200
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 330000003400000035000000360000003700000038000000
+  - startTime: 1200
+    endTime: 1201
+    max: 201
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 39000000
+  - startTime: 1200
+    endTime: -1
+    max: 180
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 330000003400000035000000360000003700000038000000
+  exDatas:
+  - startTime: 240
+    endTime: 300
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 3a0000003b0000003c000000
+  - startTime: 540
+    endTime: 600
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 3d0000003e0000003f000000
+  - startTime: 840
+    endTime: 900
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 400000004100000042000000
+  - startTime: 1140
+    endTime: 1195
+    max: 150
+    interval: 0.5
+    patternObj: {fileID: 0}
+    enemyIDs: 430000004400000045000000

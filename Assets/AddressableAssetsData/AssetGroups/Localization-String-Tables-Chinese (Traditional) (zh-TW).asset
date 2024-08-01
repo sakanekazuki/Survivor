@@ -31,6 +31,18 @@ MonoBehaviour:
     - Locale-zh-TW
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f80721d8fcdc7b940aafb0b0e979d515
+    m_Address: GalleryItemName_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da7777c2f26f6c345b3c51fef8758514
+    m_Address: GalleryText_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 055edc59a6a6866458734ad68cdaea07, type: 2}
   m_SchemaSet:

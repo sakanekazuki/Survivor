@@ -41,6 +41,16 @@ MonoBehaviour:
     - Locale-en
     - Locale-ja
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99d07bb8ca05adf4897647339c0c1421
+    m_Address: Assets/Localization/GalleryItemName Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3b89ec730a67194fb2a844740c84e54
+    m_Address: Assets/Localization/GalleryText Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 055edc59a6a6866458734ad68cdaea07, type: 2}
   m_SchemaSet:
